@@ -6,3 +6,21 @@ log/
 *.pyc
 *.swp
 >>>>>>> 7f787da (Primeiro commit do ROS2 Humble)
+# ROS2 build files
+build/
+install/
+log/
+
+# Python temporary files
+*.pyc
+*.swp
+
+# Editor configs
+.vscode/
+
+# Dependências locais
+osqp/
+
+# Outros que não queres versionar
+*.egg-info
+*.db
