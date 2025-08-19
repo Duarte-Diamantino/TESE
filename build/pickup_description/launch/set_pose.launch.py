@@ -1,1 +1,0 @@
-/home/jetson/f1tenth/src/pickup_description/launch/set_pose.launch.py

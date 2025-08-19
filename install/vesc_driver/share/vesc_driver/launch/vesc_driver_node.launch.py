@@ -1,1 +1,0 @@
-/home/jetson/f1tenth/src/f1tenth_system/vesc/vesc/vesc_driver/launch/vesc_driver_node.launch.py

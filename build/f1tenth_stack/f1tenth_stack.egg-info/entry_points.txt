@@ -1,5 +1,0 @@
-[console_scripts]
-keyboard_teleop = f1tenth_stack.keyboard_teleop:main
-tf_publisher = f1tenth_stack.tf_publisher:main
-throttle_interpolator = f1tenth_stack.throttle_interpolator:main
-

@@ -1,1 +1,0 @@
-/home/jetson/f1tenth/src/pickup_description/launch/launch_rounded_rectangle.launch.py

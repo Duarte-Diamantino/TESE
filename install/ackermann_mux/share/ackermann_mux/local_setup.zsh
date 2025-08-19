@@ -1,1 +1,0 @@
-/home/jetson/f1tenth/build/ackermann_mux/ament_cmake_environment_hooks/local_setup.zsh

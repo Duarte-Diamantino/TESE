@@ -1,1 +1,0 @@
-/home/jetson/f1tenth/src/f1tenth_system/transport_drivers/serial_driver/include/serial_driver/serial_bridge_node.hpp

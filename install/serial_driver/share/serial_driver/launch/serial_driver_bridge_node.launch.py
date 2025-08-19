@@ -1,1 +1,0 @@
-/home/jetson/f1tenth/src/f1tenth_system/transport_drivers/serial_driver/launch/serial_driver_bridge_node.launch.py

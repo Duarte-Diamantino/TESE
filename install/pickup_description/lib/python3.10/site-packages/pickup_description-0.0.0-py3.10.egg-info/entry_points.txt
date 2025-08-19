@@ -1,6 +1,0 @@
-[console_scripts]
-marker_publisher = pickup_description.marker_publisher:main
-mov_robot_model = pickup_description.mov_robot_model:main
-q_path_publisher = pickup_description.q_path_publisher:main
-rounded_rectangle_marker_publisher = pickup_description.rounded_rectangle_marker_publisher:main
-

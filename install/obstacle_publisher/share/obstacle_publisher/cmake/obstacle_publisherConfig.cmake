@@ -1,1 +1,0 @@
-/home/jetson/f1tenth/build/obstacle_publisher/ament_cmake_core/obstacle_publisherConfig.cmake

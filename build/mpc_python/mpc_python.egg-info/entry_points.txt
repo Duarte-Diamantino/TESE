@@ -1,3 +1,0 @@
-[console_scripts]
-mpc_controller = mpc_python.mpc_controller:main
-

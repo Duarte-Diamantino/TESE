@@ -1,1 +1,0 @@
-/home/jetson/f1tenth/build/dwa_follower/ament_cmake_environment_hooks/local_setup.sh

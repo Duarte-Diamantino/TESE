@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target dwa_global_follower[0m
-[35m[1mConsolidate compiler generated dependencies of target dwa_follower_node[0m
-[ 16%] [32mBuilding CXX object CMakeFiles/dwa_follower_node.dir/src/dwa_follower.cpp.o[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/dwa_global_follower.dir/src/dwa_global_follower.cpp.o[0m
-[ 66%] Built target dwa_spline_follower

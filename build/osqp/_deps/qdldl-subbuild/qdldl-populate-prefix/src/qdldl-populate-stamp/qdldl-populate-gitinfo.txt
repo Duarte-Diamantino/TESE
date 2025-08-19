@@ -1,3 +1,0 @@
-repository='https://github.com/osqp/qdldl.git'
-module=''
-tag='origin'

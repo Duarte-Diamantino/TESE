@@ -1,1 +1,0 @@
-/home/jetson/f1tenth/src/f1tenth_system/ackermann_mux/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp

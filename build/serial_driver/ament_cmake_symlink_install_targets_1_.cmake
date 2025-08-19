@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jetson/f1tenth/build/serial_driver/libserial_driver.so" "/home/jetson/f1tenth/build/serial_driver/libserial_driver_nodes.so" "TARGETS" "serial_driver" "serial_driver_nodes" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

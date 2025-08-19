@@ -1,1 +1,0 @@
-/home/jetson/f1tenth/build/spline_visualizer/ament_cmake_core/spline_visualizerConfig.cmake

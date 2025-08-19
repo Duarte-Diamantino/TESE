@@ -1,6 +1,0 @@
-Invoking command in '/home/jetson/f1tenth/build/osqp': /usr/bin/cmake /home/jetson/f1tenth/osqp -DCMAKE_INSTALL_PREFIX=/home/jetson/f1tenth/install/osqp
-Invoked command in '/home/jetson/f1tenth/build/osqp' returned '0': /usr/bin/cmake /home/jetson/f1tenth/osqp -DCMAKE_INSTALL_PREFIX=/home/jetson/f1tenth/install/osqp
-Invoking command in '/home/jetson/f1tenth/build/osqp': /usr/bin/cmake --build /home/jetson/f1tenth/build/osqp -- -j6 -l6
-Invoked command in '/home/jetson/f1tenth/build/osqp' returned '0': /usr/bin/cmake --build /home/jetson/f1tenth/build/osqp -- -j6 -l6
-Invoking command in '/home/jetson/f1tenth/build/osqp': /usr/bin/cmake --install /home/jetson/f1tenth/build/osqp
-Invoked command in '/home/jetson/f1tenth/build/osqp' returned '0': /usr/bin/cmake --install /home/jetson/f1tenth/build/osqp

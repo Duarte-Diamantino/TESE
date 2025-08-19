@@ -1,1 +1,0 @@
-/home/jetson/f1tenth/src/f1tenth_system/f1tenth_stack/launch/sick_bringup_launch.py

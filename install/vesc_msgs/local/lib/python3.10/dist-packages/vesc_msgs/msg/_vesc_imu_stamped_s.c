@@ -1,1 +1,0 @@
-/home/jetson/f1tenth/build/vesc_msgs/rosidl_generator_py/vesc_msgs/msg/_vesc_imu_stamped_s.c
