@@ -1,3 +1,8 @@
 build/
 install/
 log/
+<<<<<<< HEAD
+=======
+*.pyc
+*.swp
+>>>>>>> 7f787da (Primeiro commit do ROS2 Humble)
