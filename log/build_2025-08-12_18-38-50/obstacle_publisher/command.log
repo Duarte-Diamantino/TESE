@@ -1,0 +1,2 @@
+Invoking command in '/home/jetson/f1tenth/build/obstacle_publisher': /usr/bin/cmake /home/jetson/f1tenth/src/obstacle_publisher -DCMAKE_INSTALL_PREFIX=/home/jetson/f1tenth/install/obstacle_publisher
+Invoked command in '/home/jetson/f1tenth/build/obstacle_publisher' returned '1': /usr/bin/cmake /home/jetson/f1tenth/src/obstacle_publisher -DCMAKE_INSTALL_PREFIX=/home/jetson/f1tenth/install/obstacle_publisher

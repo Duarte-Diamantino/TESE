@@ -1,0 +1,555 @@
+[0.000000] (-) TimerEvent: {}
+[0.001335] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.001959] (-) JobUnselected: {'identifier': 'asio_cmake_module'}
+[0.002212] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.002549] (-) JobUnselected: {'identifier': 'io_context'}
+[0.002806] (-) JobUnselected: {'identifier': 'lbfgspp'}
+[0.002939] (-) JobUnselected: {'identifier': 'mpc_python'}
+[0.003025] (-) JobUnselected: {'identifier': 'obstacle_publisher'}
+[0.003326] (-) JobUnselected: {'identifier': 'osqp'}
+[0.003594] (-) JobUnselected: {'identifier': 'osqp-eigen'}
+[0.003855] (-) JobUnselected: {'identifier': 'pickup_description'}
+[0.003989] (-) JobUnselected: {'identifier': 'serial_driver'}
+[0.004188] (-) JobUnselected: {'identifier': 'spline_visualizer'}
+[0.004505] (-) JobUnselected: {'identifier': 'udp_driver'}
+[0.004764] (-) JobUnselected: {'identifier': 'vesc'}
+[0.004938] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.005024] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.005136] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.005221] (dwa_follower) JobQueued: {'identifier': 'dwa_follower', 'dependencies': OrderedDict()}
+[0.005648] (dwa_follower) JobStarted: {'identifier': 'dwa_follower'}
+[0.025232] (dwa_follower) JobProgress: {'identifier': 'dwa_follower', 'progress': 'cmake'}
+[0.026871] (dwa_follower) JobProgress: {'identifier': 'dwa_follower', 'progress': 'build'}
+[0.028296] (dwa_follower) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/f1tenth/build/dwa_follower', '--', '-j6', '-l6'], 'cwd': '/home/jetson/f1tenth/build/dwa_follower', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '10.13.5.10 33666 22'), ('LC_TIME', 'pt_PT.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/f1tenth/install/vesc_driver/lib:/home/jetson/f1tenth/install/vesc_ackermann/lib:/home/jetson/f1tenth/install/vesc_msgs/lib:/home/jetson/f1tenth/install/udp_driver/lib:/home/jetson/f1tenth/install/serial_driver/lib:/home/jetson/f1tenth/install/osqp-eigen/lib:/home/jetson/f1tenth/install/osqp/lib:/home/jetson/f1tenth/install/io_context/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('CYCLONEDDS_URI', 'file:///home/jetson/.config/cyclonedds/CycloneDDS.xml'), ('OLDPWD', '/home/jetson/f1tenth'), ('SSH_TTY', '/dev/pts/4'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jetson/f1tenth/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422124359073'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/f1tenth/install/osqp-eigen/lib/aarch64-linux-gnu/pkgconfig:/home/jetson/f1tenth/install/osqp-eigen/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jetson/.local/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/vesc:/home/jetson/f1tenth/install/vesc_driver:/home/jetson/f1tenth/install/vesc_ackermann:/home/jetson/f1tenth/install/vesc_msgs:/home/jetson/f1tenth/install/udp_driver:/home/jetson/f1tenth/install/spline_visualizer:/home/jetson/f1tenth/install/serial_driver:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/obstacle_publisher:/home/jetson/f1tenth/install/mpc_python:/home/jetson/f1tenth/install/io_context:/home/jetson/f1tenth/install/dwa_follower:/home/jetson/f1tenth/install/asio_cmake_module:/home/jetson/f1tenth/install/ackermann_mux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('ROS_DISCOVERY_SERVER', '10.13.5.6:11811'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/f1tenth/build/dwa_follower'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.13.5.10 33666 10.13.5.7 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/f1tenth/build/f1tenth_stack:/home/jetson/f1tenth/install/f1tenth_stack/lib/python3.10/site-packages:/home/jetson/f1tenth/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/jetson/f1tenth/install/pickup_description/lib/python3.10/site-packages:/home/jetson/f1tenth/build/mpc_python:/home/jetson/f1tenth/install/mpc_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/jetson/f1tenth/install/vesc:/home/jetson/f1tenth/install/vesc_driver:/home/jetson/f1tenth/install/vesc_ackermann:/home/jetson/f1tenth/install/vesc_msgs:/home/jetson/f1tenth/install/udp_driver:/home/jetson/f1tenth/install/spline_visualizer:/home/jetson/f1tenth/install/serial_driver:/home/jetson/f1tenth/install/osqp-eigen:/home/jetson/f1tenth/install/osqp:/home/jetson/f1tenth/install/obstacle_publisher:/home/jetson/f1tenth/install/lbfgspp:/home/jetson/f1tenth/install/io_context:/home/jetson/f1tenth/install/dwa_follower:/home/jetson/f1tenth/install/asio_cmake_module:/home/jetson/f1tenth/install/ackermann_mux:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.098247] (-) TimerEvent: {}
+[0.180841] (dwa_follower) StdoutLine: {'line': b'[ 33%] Built target dwa_spline_follower\n'}
+[0.190877] (dwa_follower) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dwa_follower_node.dir/src/dwa_follower.cpp.o\x1b[0m\n'}
+[0.198414] (-) TimerEvent: {}
+[0.207847] (dwa_follower) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/dwa_global_follower.dir/src/dwa_global_follower.cpp.o\x1b[0m\n'}
+[0.298565] (-) TimerEvent: {}
+[0.399192] (-) TimerEvent: {}
+[0.499908] (-) TimerEvent: {}
+[0.600874] (-) TimerEvent: {}
+[0.702155] (-) TimerEvent: {}
+[0.802728] (-) TimerEvent: {}
+[0.903902] (-) TimerEvent: {}
+[1.005646] (-) TimerEvent: {}
+[1.108391] (-) TimerEvent: {}
+[1.209304] (-) TimerEvent: {}
+[1.314253] (-) TimerEvent: {}
+[1.417519] (-) TimerEvent: {}
+[1.518225] (-) TimerEvent: {}
+[1.619695] (-) TimerEvent: {}
+[1.720545] (-) TimerEvent: {}
+[1.821677] (-) TimerEvent: {}
+[1.922944] (-) TimerEvent: {}
+[2.023732] (-) TimerEvent: {}
+[2.124442] (-) TimerEvent: {}
+[2.225584] (-) TimerEvent: {}
+[2.328942] (-) TimerEvent: {}
+[2.432355] (-) TimerEvent: {}
+[2.533205] (-) TimerEvent: {}
+[2.634335] (-) TimerEvent: {}
+[2.735335] (-) TimerEvent: {}
+[2.837824] (-) TimerEvent: {}
+[2.938430] (-) TimerEvent: {}
+[3.039021] (-) TimerEvent: {}
+[3.139843] (-) TimerEvent: {}
+[3.240495] (-) TimerEvent: {}
+[3.341225] (-) TimerEvent: {}
+[3.443661] (-) TimerEvent: {}
+[3.547261] (-) TimerEvent: {}
+[3.649379] (-) TimerEvent: {}
+[3.750207] (-) TimerEvent: {}
+[3.850821] (-) TimerEvent: {}
+[3.951728] (-) TimerEvent: {}
+[4.052621] (-) TimerEvent: {}
+[4.153623] (-) TimerEvent: {}
+[4.254264] (-) TimerEvent: {}
+[4.356152] (-) TimerEvent: {}
+[4.456757] (-) TimerEvent: {}
+[4.557354] (-) TimerEvent: {}
+[4.658225] (-) TimerEvent: {}
+[4.759118] (-) TimerEvent: {}
+[4.860014] (-) TimerEvent: {}
+[4.961928] (-) TimerEvent: {}
+[5.064987] (-) TimerEvent: {}
+[5.165765] (-) TimerEvent: {}
+[5.266506] (-) TimerEvent: {}
+[5.367316] (-) TimerEvent: {}
+[5.468418] (-) TimerEvent: {}
+[5.570955] (-) TimerEvent: {}
+[5.672940] (-) TimerEvent: {}
+[5.774158] (-) TimerEvent: {}
+[5.875068] (-) TimerEvent: {}
+[5.976200] (-) TimerEvent: {}
+[6.077172] (-) TimerEvent: {}
+[6.178027] (-) TimerEvent: {}
+[6.278787] (-) TimerEvent: {}
+[6.379913] (-) TimerEvent: {}
+[6.480615] (-) TimerEvent: {}
+[6.581441] (-) TimerEvent: {}
+[6.682061] (-) TimerEvent: {}
+[6.782686] (-) TimerEvent: {}
+[6.883353] (-) TimerEvent: {}
+[6.984061] (-) TimerEvent: {}
+[7.085889] (-) TimerEvent: {}
+[7.186507] (-) TimerEvent: {}
+[7.287174] (-) TimerEvent: {}
+[7.387754] (-) TimerEvent: {}
+[7.488487] (-) TimerEvent: {}
+[7.595255] (-) TimerEvent: {}
+[7.696108] (-) TimerEvent: {}
+[7.796938] (-) TimerEvent: {}
+[7.897761] (-) TimerEvent: {}
+[7.998553] (-) TimerEvent: {}
+[8.015270] (dwa_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_global_follower.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<double, double> DwaGlobalFollower::getLocalGoal() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.015810] (dwa_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_global_follower.cpp:268:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<double, double>\x1b[m\x1b[K\xe2\x80\x99 when C++17 is enabled changed to match C++14 \x1b]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_base\x07in GCC 10.1\x1b]8;;\x07\n'}
+[8.016003] (dwa_follower) StderrLine: {'line': b'  268 | std::pair<double, double> DwaGlobalFollower::getLocalGoal() \x1b[01;36m\x1b[Kconst\x1b[m\x1b[K {\n'}
+[8.016163] (dwa_follower) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.098706] (-) TimerEvent: {}
+[8.199478] (-) TimerEvent: {}
+[8.300049] (-) TimerEvent: {}
+[8.400743] (-) TimerEvent: {}
+[8.501379] (-) TimerEvent: {}
+[8.602337] (-) TimerEvent: {}
+[8.702957] (-) TimerEvent: {}
+[8.803619] (-) TimerEvent: {}
+[8.904603] (-) TimerEvent: {}
+[9.005190] (-) TimerEvent: {}
+[9.106375] (-) TimerEvent: {}
+[9.207006] (-) TimerEvent: {}
+[9.307673] (-) TimerEvent: {}
+[9.408573] (-) TimerEvent: {}
+[9.509170] (-) TimerEvent: {}
+[9.610109] (-) TimerEvent: {}
+[9.710931] (-) TimerEvent: {}
+[9.811953] (-) TimerEvent: {}
+[9.912637] (-) TimerEvent: {}
+[10.013246] (-) TimerEvent: {}
+[10.113845] (-) TimerEvent: {}
+[10.214503] (-) TimerEvent: {}
+[10.315218] (-) TimerEvent: {}
+[10.416193] (-) TimerEvent: {}
+[10.517796] (-) TimerEvent: {}
+[10.618423] (-) TimerEvent: {}
+[10.719922] (-) TimerEvent: {}
+[10.820493] (-) TimerEvent: {}
+[10.921739] (-) TimerEvent: {}
+[11.022320] (-) TimerEvent: {}
+[11.122866] (-) TimerEvent: {}
+[11.223508] (-) TimerEvent: {}
+[11.324096] (-) TimerEvent: {}
+[11.425194] (-) TimerEvent: {}
+[11.526979] (-) TimerEvent: {}
+[11.631504] (-) TimerEvent: {}
+[11.732142] (-) TimerEvent: {}
+[11.832754] (-) TimerEvent: {}
+[11.933354] (-) TimerEvent: {}
+[12.034005] (-) TimerEvent: {}
+[12.134575] (-) TimerEvent: {}
+[12.235304] (-) TimerEvent: {}
+[12.335895] (-) TimerEvent: {}
+[12.436501] (-) TimerEvent: {}
+[12.537150] (-) TimerEvent: {}
+[12.637791] (-) TimerEvent: {}
+[12.738441] (-) TimerEvent: {}
+[12.839099] (-) TimerEvent: {}
+[12.939802] (-) TimerEvent: {}
+[13.040380] (-) TimerEvent: {}
+[13.141172] (-) TimerEvent: {}
+[13.241893] (-) TimerEvent: {}
+[13.345982] (-) TimerEvent: {}
+[13.446633] (-) TimerEvent: {}
+[13.547323] (-) TimerEvent: {}
+[13.648912] (-) TimerEvent: {}
+[13.750440] (-) TimerEvent: {}
+[13.851859] (-) TimerEvent: {}
+[13.952862] (-) TimerEvent: {}
+[14.054312] (-) TimerEvent: {}
+[14.155316] (-) TimerEvent: {}
+[14.256027] (-) TimerEvent: {}
+[14.357052] (-) TimerEvent: {}
+[14.458077] (-) TimerEvent: {}
+[14.559086] (-) TimerEvent: {}
+[14.660411] (-) TimerEvent: {}
+[14.761484] (-) TimerEvent: {}
+[14.862467] (-) TimerEvent: {}
+[14.963839] (-) TimerEvent: {}
+[15.064829] (-) TimerEvent: {}
+[15.166075] (-) TimerEvent: {}
+[15.267564] (-) TimerEvent: {}
+[15.368371] (-) TimerEvent: {}
+[15.469381] (-) TimerEvent: {}
+[15.570249] (-) TimerEvent: {}
+[15.673137] (-) TimerEvent: {}
+[15.776332] (-) TimerEvent: {}
+[15.877517] (-) TimerEvent: {}
+[15.978936] (-) TimerEvent: {}
+[16.079985] (-) TimerEvent: {}
+[16.181026] (-) TimerEvent: {}
+[16.282097] (-) TimerEvent: {}
+[16.382856] (-) TimerEvent: {}
+[16.483721] (-) TimerEvent: {}
+[16.584463] (-) TimerEvent: {}
+[16.685325] (-) TimerEvent: {}
+[16.785919] (-) TimerEvent: {}
+[16.886525] (-) TimerEvent: {}
+[16.987094] (-) TimerEvent: {}
+[17.087712] (-) TimerEvent: {}
+[17.188360] (-) TimerEvent: {}
+[17.288965] (-) TimerEvent: {}
+[17.389536] (-) TimerEvent: {}
+[17.490284] (-) TimerEvent: {}
+[17.591804] (-) TimerEvent: {}
+[17.692531] (-) TimerEvent: {}
+[17.794480] (-) TimerEvent: {}
+[17.895146] (-) TimerEvent: {}
+[17.995730] (-) TimerEvent: {}
+[18.096396] (-) TimerEvent: {}
+[18.197247] (-) TimerEvent: {}
+[18.297918] (-) TimerEvent: {}
+[18.398744] (-) TimerEvent: {}
+[18.500014] (-) TimerEvent: {}
+[18.600701] (-) TimerEvent: {}
+[18.701527] (-) TimerEvent: {}
+[18.802583] (-) TimerEvent: {}
+[18.903257] (-) TimerEvent: {}
+[19.003888] (-) TimerEvent: {}
+[19.104778] (-) TimerEvent: {}
+[19.205586] (-) TimerEvent: {}
+[19.306511] (-) TimerEvent: {}
+[19.407593] (-) TimerEvent: {}
+[19.508562] (-) TimerEvent: {}
+[19.609205] (-) TimerEvent: {}
+[19.709814] (-) TimerEvent: {}
+[19.810415] (-) TimerEvent: {}
+[19.911029] (-) TimerEvent: {}
+[20.011668] (-) TimerEvent: {}
+[20.112296] (-) TimerEvent: {}
+[20.212917] (-) TimerEvent: {}
+[20.313518] (-) TimerEvent: {}
+[20.414487] (-) TimerEvent: {}
+[20.515639] (-) TimerEvent: {}
+[20.616471] (-) TimerEvent: {}
+[20.717676] (-) TimerEvent: {}
+[20.818362] (-) TimerEvent: {}
+[20.919041] (-) TimerEvent: {}
+[21.020962] (-) TimerEvent: {}
+[21.122255] (-) TimerEvent: {}
+[21.223172] (-) TimerEvent: {}
+[21.323880] (-) TimerEvent: {}
+[21.424631] (-) TimerEvent: {}
+[21.525702] (-) TimerEvent: {}
+[21.626743] (-) TimerEvent: {}
+[21.727611] (-) TimerEvent: {}
+[21.828506] (-) TimerEvent: {}
+[21.929172] (-) TimerEvent: {}
+[22.029824] (-) TimerEvent: {}
+[22.131008] (-) TimerEvent: {}
+[22.231651] (-) TimerEvent: {}
+[22.333135] (-) TimerEvent: {}
+[22.433938] (-) TimerEvent: {}
+[22.534856] (-) TimerEvent: {}
+[22.636509] (-) TimerEvent: {}
+[22.737152] (-) TimerEvent: {}
+[22.838043] (-) TimerEvent: {}
+[22.938674] (-) TimerEvent: {}
+[23.039262] (-) TimerEvent: {}
+[23.139869] (-) TimerEvent: {}
+[23.240573] (-) TimerEvent: {}
+[23.341244] (-) TimerEvent: {}
+[23.442160] (-) TimerEvent: {}
+[23.543367] (-) TimerEvent: {}
+[23.644005] (-) TimerEvent: {}
+[23.744618] (-) TimerEvent: {}
+[23.849841] (-) TimerEvent: {}
+[23.950473] (-) TimerEvent: {}
+[24.051165] (-) TimerEvent: {}
+[24.151992] (-) TimerEvent: {}
+[24.252595] (-) TimerEvent: {}
+[24.353250] (-) TimerEvent: {}
+[24.453871] (-) TimerEvent: {}
+[24.554489] (-) TimerEvent: {}
+[24.655190] (-) TimerEvent: {}
+[24.755784] (-) TimerEvent: {}
+[24.856391] (-) TimerEvent: {}
+[24.957975] (-) TimerEvent: {}
+[25.059089] (-) TimerEvent: {}
+[25.159716] (-) TimerEvent: {}
+[25.260573] (-) TimerEvent: {}
+[25.361312] (-) TimerEvent: {}
+[25.462360] (-) TimerEvent: {}
+[25.563237] (-) TimerEvent: {}
+[25.664072] (-) TimerEvent: {}
+[25.764680] (-) TimerEvent: {}
+[25.865484] (-) TimerEvent: {}
+[25.966619] (-) TimerEvent: {}
+[26.067283] (-) TimerEvent: {}
+[26.167872] (-) TimerEvent: {}
+[26.268530] (-) TimerEvent: {}
+[26.369602] (-) TimerEvent: {}
+[26.471511] (-) TimerEvent: {}
+[26.572471] (-) TimerEvent: {}
+[26.673075] (-) TimerEvent: {}
+[26.773666] (-) TimerEvent: {}
+[26.874607] (-) TimerEvent: {}
+[26.975297] (-) TimerEvent: {}
+[27.075919] (-) TimerEvent: {}
+[27.176500] (-) TimerEvent: {}
+[27.277090] (-) TimerEvent: {}
+[27.377659] (-) TimerEvent: {}
+[27.478267] (-) TimerEvent: {}
+[27.578868] (-) TimerEvent: {}
+[27.679661] (-) TimerEvent: {}
+[27.780448] (-) TimerEvent: {}
+[27.884668] (-) TimerEvent: {}
+[27.985862] (-) TimerEvent: {}
+[28.086443] (-) TimerEvent: {}
+[28.186955] (-) TimerEvent: {}
+[28.287926] (-) TimerEvent: {}
+[28.388468] (-) TimerEvent: {}
+[28.489045] (-) TimerEvent: {}
+[28.589931] (-) TimerEvent: {}
+[28.690630] (-) TimerEvent: {}
+[28.791528] (-) TimerEvent: {}
+[28.892702] (-) TimerEvent: {}
+[28.993274] (-) TimerEvent: {}
+[29.093895] (-) TimerEvent: {}
+[29.194608] (-) TimerEvent: {}
+[29.295264] (-) TimerEvent: {}
+[29.395866] (-) TimerEvent: {}
+[29.496627] (-) TimerEvent: {}
+[29.597631] (-) TimerEvent: {}
+[29.698246] (-) TimerEvent: {}
+[29.799216] (-) TimerEvent: {}
+[29.899791] (-) TimerEvent: {}
+[30.000465] (-) TimerEvent: {}
+[30.101264] (-) TimerEvent: {}
+[30.202134] (-) TimerEvent: {}
+[30.302836] (-) TimerEvent: {}
+[30.403639] (-) TimerEvent: {}
+[30.504497] (-) TimerEvent: {}
+[30.607726] (-) TimerEvent: {}
+[30.708271] (-) TimerEvent: {}
+[30.808851] (-) TimerEvent: {}
+[30.911254] (-) TimerEvent: {}
+[31.011826] (-) TimerEvent: {}
+[31.112730] (-) TimerEvent: {}
+[31.213606] (-) TimerEvent: {}
+[31.314894] (-) TimerEvent: {}
+[31.416289] (-) TimerEvent: {}
+[31.516869] (-) TimerEvent: {}
+[31.617425] (-) TimerEvent: {}
+[31.717962] (-) TimerEvent: {}
+[31.818582] (-) TimerEvent: {}
+[31.919507] (-) TimerEvent: {}
+[32.021323] (-) TimerEvent: {}
+[32.121916] (-) TimerEvent: {}
+[32.222713] (-) TimerEvent: {}
+[32.323387] (-) TimerEvent: {}
+[32.424001] (-) TimerEvent: {}
+[32.525333] (-) TimerEvent: {}
+[32.628096] (-) TimerEvent: {}
+[32.728725] (-) TimerEvent: {}
+[32.829625] (-) TimerEvent: {}
+[32.930237] (-) TimerEvent: {}
+[33.030897] (-) TimerEvent: {}
+[33.131795] (-) TimerEvent: {}
+[33.232890] (-) TimerEvent: {}
+[33.333602] (-) TimerEvent: {}
+[33.434330] (-) TimerEvent: {}
+[33.535034] (-) TimerEvent: {}
+[33.635709] (-) TimerEvent: {}
+[33.736777] (-) TimerEvent: {}
+[33.837588] (-) TimerEvent: {}
+[33.938294] (-) TimerEvent: {}
+[34.038947] (-) TimerEvent: {}
+[34.139664] (-) TimerEvent: {}
+[34.240200] (-) TimerEvent: {}
+[34.340878] (-) TimerEvent: {}
+[34.441524] (-) TimerEvent: {}
+[34.542479] (-) TimerEvent: {}
+[34.643383] (-) TimerEvent: {}
+[34.744098] (-) TimerEvent: {}
+[34.844836] (-) TimerEvent: {}
+[34.946565] (-) TimerEvent: {}
+[35.047192] (-) TimerEvent: {}
+[35.147828] (-) TimerEvent: {}
+[35.248560] (-) TimerEvent: {}
+[35.349248] (-) TimerEvent: {}
+[35.449839] (-) TimerEvent: {}
+[35.550443] (-) TimerEvent: {}
+[35.651155] (-) TimerEvent: {}
+[35.751777] (-) TimerEvent: {}
+[35.852452] (-) TimerEvent: {}
+[35.953012] (-) TimerEvent: {}
+[36.053641] (-) TimerEvent: {}
+[36.154214] (-) TimerEvent: {}
+[36.254859] (-) TimerEvent: {}
+[36.355514] (-) TimerEvent: {}
+[36.456514] (-) TimerEvent: {}
+[36.557992] (-) TimerEvent: {}
+[36.659603] (-) TimerEvent: {}
+[36.760446] (-) TimerEvent: {}
+[36.861312] (-) TimerEvent: {}
+[36.962730] (-) TimerEvent: {}
+[37.063765] (-) TimerEvent: {}
+[37.165684] (-) TimerEvent: {}
+[37.266955] (-) TimerEvent: {}
+[37.368068] (-) TimerEvent: {}
+[37.468890] (-) TimerEvent: {}
+[37.569734] (-) TimerEvent: {}
+[37.670613] (-) TimerEvent: {}
+[37.771465] (-) TimerEvent: {}
+[37.872274] (-) TimerEvent: {}
+[37.973082] (-) TimerEvent: {}
+[38.073705] (-) TimerEvent: {}
+[38.174365] (-) TimerEvent: {}
+[38.275009] (-) TimerEvent: {}
+[38.375687] (-) TimerEvent: {}
+[38.476329] (-) TimerEvent: {}
+[38.577258] (-) TimerEvent: {}
+[38.678528] (-) TimerEvent: {}
+[38.779897] (-) TimerEvent: {}
+[38.880798] (-) TimerEvent: {}
+[38.981479] (-) TimerEvent: {}
+[39.082256] (-) TimerEvent: {}
+[39.182908] (-) TimerEvent: {}
+[39.284166] (-) TimerEvent: {}
+[39.385345] (-) TimerEvent: {}
+[39.486449] (-) TimerEvent: {}
+[39.587694] (-) TimerEvent: {}
+[39.689567] (-) TimerEvent: {}
+[39.793768] (-) TimerEvent: {}
+[39.894978] (-) TimerEvent: {}
+[40.006259] (-) TimerEvent: {}
+[40.107271] (-) TimerEvent: {}
+[40.207956] (-) TimerEvent: {}
+[40.308521] (-) TimerEvent: {}
+[40.409406] (-) TimerEvent: {}
+[40.510026] (-) TimerEvent: {}
+[40.610576] (-) TimerEvent: {}
+[40.711218] (-) TimerEvent: {}
+[40.811919] (-) TimerEvent: {}
+[40.912529] (-) TimerEvent: {}
+[41.013157] (-) TimerEvent: {}
+[41.114035] (-) TimerEvent: {}
+[41.216576] (-) TimerEvent: {}
+[41.318205] (-) TimerEvent: {}
+[41.419480] (-) TimerEvent: {}
+[41.520158] (-) TimerEvent: {}
+[41.620701] (-) TimerEvent: {}
+[41.669266] (dwa_follower) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable dwa_follower_node\x1b[0m\n'}
+[41.720849] (-) TimerEvent: {}
+[41.821521] (-) TimerEvent: {}
+[41.922180] (-) TimerEvent: {}
+[42.022835] (-) TimerEvent: {}
+[42.123536] (-) TimerEvent: {}
+[42.224254] (-) TimerEvent: {}
+[42.325831] (-) TimerEvent: {}
+[42.426729] (-) TimerEvent: {}
+[42.528690] (-) TimerEvent: {}
+[42.630579] (-) TimerEvent: {}
+[42.731595] (-) TimerEvent: {}
+[42.832719] (-) TimerEvent: {}
+[42.933324] (-) TimerEvent: {}
+[43.034100] (-) TimerEvent: {}
+[43.134743] (-) TimerEvent: {}
+[43.235534] (-) TimerEvent: {}
+[43.337632] (-) TimerEvent: {}
+[43.438247] (-) TimerEvent: {}
+[43.538987] (-) TimerEvent: {}
+[43.639627] (-) TimerEvent: {}
+[43.740245] (-) TimerEvent: {}
+[43.793468] (dwa_follower) StdoutLine: {'line': b'[ 83%] Built target dwa_follower_node\n'}
+[43.840410] (-) TimerEvent: {}
+[43.941137] (-) TimerEvent: {}
+[44.041799] (-) TimerEvent: {}
+[44.142844] (-) TimerEvent: {}
+[44.243549] (-) TimerEvent: {}
+[44.344169] (-) TimerEvent: {}
+[44.444817] (-) TimerEvent: {}
+[44.545507] (-) TimerEvent: {}
+[44.646154] (-) TimerEvent: {}
+[44.746838] (-) TimerEvent: {}
+[44.847964] (-) TimerEvent: {}
+[44.948737] (-) TimerEvent: {}
+[45.049992] (-) TimerEvent: {}
+[45.150656] (-) TimerEvent: {}
+[45.251824] (-) TimerEvent: {}
+[45.352516] (-) TimerEvent: {}
+[45.453152] (-) TimerEvent: {}
+[45.554050] (-) TimerEvent: {}
+[45.655395] (-) TimerEvent: {}
+[45.756028] (-) TimerEvent: {}
+[45.856955] (-) TimerEvent: {}
+[45.957638] (-) TimerEvent: {}
+[46.058278] (-) TimerEvent: {}
+[46.159282] (-) TimerEvent: {}
+[46.260312] (-) TimerEvent: {}
+[46.360960] (-) TimerEvent: {}
+[46.461821] (-) TimerEvent: {}
+[46.562721] (-) TimerEvent: {}
+[46.663354] (-) TimerEvent: {}
+[46.764516] (-) TimerEvent: {}
+[46.866124] (-) TimerEvent: {}
+[46.967361] (-) TimerEvent: {}
+[47.069695] (-) TimerEvent: {}
+[47.170423] (-) TimerEvent: {}
+[47.271106] (-) TimerEvent: {}
+[47.284458] (dwa_follower) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dwa_global_follower\x1b[0m\n'}
+[47.371264] (-) TimerEvent: {}
+[47.474675] (-) TimerEvent: {}
+[47.575425] (-) TimerEvent: {}
+[47.676079] (-) TimerEvent: {}
+[47.776728] (-) TimerEvent: {}
+[47.877917] (-) TimerEvent: {}
+[47.978631] (-) TimerEvent: {}
+[48.084777] (-) TimerEvent: {}
+[48.185421] (-) TimerEvent: {}
+[48.287796] (-) TimerEvent: {}
+[48.388471] (-) TimerEvent: {}
+[48.489324] (-) TimerEvent: {}
+[48.590181] (-) TimerEvent: {}
+[48.691118] (-) TimerEvent: {}
+[48.791779] (-) TimerEvent: {}
+[48.892456] (-) TimerEvent: {}
+[48.993113] (-) TimerEvent: {}
+[49.094161] (-) TimerEvent: {}
+[49.194869] (-) TimerEvent: {}
+[49.295665] (-) TimerEvent: {}
+[49.396366] (-) TimerEvent: {}
+[49.497226] (-) TimerEvent: {}
+[49.598105] (-) TimerEvent: {}
+[49.698710] (-) TimerEvent: {}
+[49.803264] (-) TimerEvent: {}
+[49.867421] (dwa_follower) StdoutLine: {'line': b'[100%] Built target dwa_global_follower\n'}
+[49.896320] (dwa_follower) CommandEnded: {'returncode': 0}
+[49.898703] (dwa_follower) JobProgress: {'identifier': 'dwa_follower', 'progress': 'install'}
+[49.903400] (-) TimerEvent: {}
+[49.919893] (dwa_follower) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/f1tenth/build/dwa_follower'], 'cwd': '/home/jetson/f1tenth/build/dwa_follower', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '10.13.5.10 33666 22'), ('LC_TIME', 'pt_PT.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/f1tenth/install/vesc_driver/lib:/home/jetson/f1tenth/install/vesc_ackermann/lib:/home/jetson/f1tenth/install/vesc_msgs/lib:/home/jetson/f1tenth/install/udp_driver/lib:/home/jetson/f1tenth/install/serial_driver/lib:/home/jetson/f1tenth/install/osqp-eigen/lib:/home/jetson/f1tenth/install/osqp/lib:/home/jetson/f1tenth/install/io_context/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('CYCLONEDDS_URI', 'file:///home/jetson/.config/cyclonedds/CycloneDDS.xml'), ('OLDPWD', '/home/jetson/f1tenth'), ('SSH_TTY', '/dev/pts/4'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jetson/f1tenth/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422124359073'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/f1tenth/install/osqp-eigen/lib/aarch64-linux-gnu/pkgconfig:/home/jetson/f1tenth/install/osqp-eigen/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jetson/.local/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/vesc:/home/jetson/f1tenth/install/vesc_driver:/home/jetson/f1tenth/install/vesc_ackermann:/home/jetson/f1tenth/install/vesc_msgs:/home/jetson/f1tenth/install/udp_driver:/home/jetson/f1tenth/install/spline_visualizer:/home/jetson/f1tenth/install/serial_driver:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/obstacle_publisher:/home/jetson/f1tenth/install/mpc_python:/home/jetson/f1tenth/install/io_context:/home/jetson/f1tenth/install/dwa_follower:/home/jetson/f1tenth/install/asio_cmake_module:/home/jetson/f1tenth/install/ackermann_mux:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('ROS_DISCOVERY_SERVER', '10.13.5.6:11811'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/f1tenth/build/dwa_follower'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.13.5.10 33666 10.13.5.7 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/f1tenth/build/f1tenth_stack:/home/jetson/f1tenth/install/f1tenth_stack/lib/python3.10/site-packages:/home/jetson/f1tenth/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/jetson/f1tenth/install/pickup_description/lib/python3.10/site-packages:/home/jetson/f1tenth/build/mpc_python:/home/jetson/f1tenth/install/mpc_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/jetson/f1tenth/install/vesc:/home/jetson/f1tenth/install/vesc_driver:/home/jetson/f1tenth/install/vesc_ackermann:/home/jetson/f1tenth/install/vesc_msgs:/home/jetson/f1tenth/install/udp_driver:/home/jetson/f1tenth/install/spline_visualizer:/home/jetson/f1tenth/install/serial_driver:/home/jetson/f1tenth/install/osqp-eigen:/home/jetson/f1tenth/install/osqp:/home/jetson/f1tenth/install/obstacle_publisher:/home/jetson/f1tenth/install/lbfgspp:/home/jetson/f1tenth/install/io_context:/home/jetson/f1tenth/install/dwa_follower:/home/jetson/f1tenth/install/asio_cmake_module:/home/jetson/f1tenth/install/ackermann_mux:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[49.940886] (dwa_follower) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[49.942096] (dwa_follower) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[49.943451] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/lib/dwa_follower/dwa_follower_node\n'}
+[49.945782] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/lib/dwa_follower/dwa_spline_follower\n'}
+[49.946590] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/lib/dwa_follower/dwa_global_follower\n'}
+[49.946801] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/ament_index/resource_index/package_run_dependencies/dwa_follower\n'}
+[49.947533] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/ament_index/resource_index/parent_prefix_path/dwa_follower\n'}
+[49.947744] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/environment/ament_prefix_path.sh\n'}
+[49.947906] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/environment/ament_prefix_path.dsv\n'}
+[49.948080] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/environment/path.sh\n'}
+[49.948414] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/environment/path.dsv\n'}
+[49.948729] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/local_setup.bash\n'}
+[49.948947] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/local_setup.sh\n'}
+[49.949168] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/local_setup.zsh\n'}
+[49.949326] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/local_setup.dsv\n'}
+[49.949473] (dwa_follower) StdoutLine: {'line': b'-- Symlinking: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/package.dsv\n'}
+[49.985176] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/ament_index/resource_index/packages/dwa_follower\n'}
+[49.986118] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/cmake/dwa_followerConfig.cmake\n'}
+[49.986366] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/cmake/dwa_followerConfig-version.cmake\n'}
+[49.987027] (dwa_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/package.xml\n'}
+[49.994414] (dwa_follower) CommandEnded: {'returncode': 0}
+[50.004788] (-) TimerEvent: {}
+[50.059527] (dwa_follower) JobEnded: {'identifier': 'dwa_follower', 'rc': 0}
+[50.061273] (-) EventReactorShutdown: {}

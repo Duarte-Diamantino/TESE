@@ -1,0 +1,3 @@
+source;share/lbfgspp/hook/cmake_prefix_path.ps1
+source;share/lbfgspp/hook/cmake_prefix_path.dsv
+source;share/lbfgspp/hook/cmake_prefix_path.sh

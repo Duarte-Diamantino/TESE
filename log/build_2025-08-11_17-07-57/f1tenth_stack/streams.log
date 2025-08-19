@@ -1,0 +1,35 @@
+[1.672s] Invoking command in '/home/jetson/f1tenth/build/f1tenth_stack': AMENT_PREFIX_PATH=/home/jetson/f1tenth/install/vesc:/home/jetson/f1tenth/install/vesc_driver:/home/jetson/f1tenth/install/serial_driver:/home/jetson/f1tenth/install/vesc_ackermann:/home/jetson/f1tenth/install/io_context:/home/jetson/f1tenth/install/vesc_msgs:/home/jetson/f1tenth/install/asio_cmake_module:/home/jetson/f1tenth/install/ackermann_mux:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/f1tenth/install/vesc:/home/jetson/f1tenth/install/vesc_driver:/home/jetson/f1tenth/install/serial_driver:/home/jetson/f1tenth/install/vesc_ackermann:/home/jetson/f1tenth/install/io_context:/home/jetson/f1tenth/install/vesc_msgs:/home/jetson/f1tenth/install/asio_cmake_module:/home/jetson/f1tenth/install/ackermann_mux LD_LIBRARY_PATH=/home/jetson/f1tenth/install/vesc_driver/lib:/home/jetson/f1tenth/install/serial_driver/lib:/home/jetson/f1tenth/install/vesc_ackermann/lib:/home/jetson/f1tenth/install/io_context/lib:/home/jetson/f1tenth/install/vesc_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/jetson/f1tenth/build/f1tenth_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/f1tenth/install/f1tenth_stack/lib/python3.10/site-packages:/home/jetson/f1tenth/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/f1tenth/build/f1tenth_stack/build --no-deps symlink_data
+[2.312s] running develop
+[2.744s] running egg_info
+[2.744s] creating f1tenth_stack.egg-info
+[2.744s] writing f1tenth_stack.egg-info/PKG-INFO
+[2.745s] writing dependency_links to f1tenth_stack.egg-info/dependency_links.txt
+[2.745s] writing entry points to f1tenth_stack.egg-info/entry_points.txt
+[2.745s] writing requirements to f1tenth_stack.egg-info/requires.txt
+[2.746s] writing top-level names to f1tenth_stack.egg-info/top_level.txt
+[2.746s] writing manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+[2.771s] reading manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+[2.772s] writing manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+[2.895s] running build_ext
+[2.895s] Creating /home/jetson/f1tenth/install/f1tenth_stack/lib/python3.10/site-packages/f1tenth-stack.egg-link (link to .)
+[2.898s] Installing keyboard_teleop script to /home/jetson/f1tenth/install/f1tenth_stack/lib/f1tenth_stack
+[2.898s] Installing tf_publisher script to /home/jetson/f1tenth/install/f1tenth_stack/lib/f1tenth_stack
+[2.898s] Installing throttle_interpolator script to /home/jetson/f1tenth/install/f1tenth_stack/lib/f1tenth_stack
+[2.899s] 
+[2.899s] Installed /home/jetson/f1tenth/build/f1tenth_stack
+[2.899s] running symlink_data
+[2.900s] creating /home/jetson/f1tenth/install/f1tenth_stack/share/ament_index
+[2.900s] creating /home/jetson/f1tenth/install/f1tenth_stack/share/ament_index/resource_index
+[2.900s] creating /home/jetson/f1tenth/install/f1tenth_stack/share/ament_index/resource_index/packages
+[2.900s] symbolically linking /home/jetson/f1tenth/build/f1tenth_stack/resource/f1tenth_stack -> /home/jetson/f1tenth/install/f1tenth_stack/share/ament_index/resource_index/packages
+[2.900s] symbolically linking /home/jetson/f1tenth/build/f1tenth_stack/package.xml -> /home/jetson/f1tenth/install/f1tenth_stack/share/f1tenth_stack
+[2.900s] creating /home/jetson/f1tenth/install/f1tenth_stack/share/f1tenth_stack/launch
+[2.901s] symbolically linking /home/jetson/f1tenth/build/f1tenth_stack/launch/sick_bringup_launch.py -> /home/jetson/f1tenth/install/f1tenth_stack/share/f1tenth_stack/launch
+[2.901s] symbolically linking /home/jetson/f1tenth/build/f1tenth_stack/launch/bringup_launch.py -> /home/jetson/f1tenth/install/f1tenth_stack/share/f1tenth_stack/launch
+[2.901s] creating /home/jetson/f1tenth/install/f1tenth_stack/share/f1tenth_stack/config
+[2.901s] symbolically linking /home/jetson/f1tenth/build/f1tenth_stack/config/vesc.yaml -> /home/jetson/f1tenth/install/f1tenth_stack/share/f1tenth_stack/config
+[2.901s] symbolically linking /home/jetson/f1tenth/build/f1tenth_stack/config/f1tenth_online_async.yaml -> /home/jetson/f1tenth/install/f1tenth_stack/share/f1tenth_stack/config
+[2.903s] symbolically linking /home/jetson/f1tenth/build/f1tenth_stack/config/sensors.yaml -> /home/jetson/f1tenth/install/f1tenth_stack/share/f1tenth_stack/config
+[2.903s] symbolically linking /home/jetson/f1tenth/build/f1tenth_stack/config/joy_teleop.yaml -> /home/jetson/f1tenth/install/f1tenth_stack/share/f1tenth_stack/config
+[2.903s] symbolically linking /home/jetson/f1tenth/build/f1tenth_stack/config/mux.yaml -> /home/jetson/f1tenth/install/f1tenth_stack/share/f1tenth_stack/config
+[3.004s] Invoked command in '/home/jetson/f1tenth/build/f1tenth_stack' returned '0': AMENT_PREFIX_PATH=/home/jetson/f1tenth/install/vesc:/home/jetson/f1tenth/install/vesc_driver:/home/jetson/f1tenth/install/serial_driver:/home/jetson/f1tenth/install/vesc_ackermann:/home/jetson/f1tenth/install/io_context:/home/jetson/f1tenth/install/vesc_msgs:/home/jetson/f1tenth/install/asio_cmake_module:/home/jetson/f1tenth/install/ackermann_mux:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/f1tenth/install/vesc:/home/jetson/f1tenth/install/vesc_driver:/home/jetson/f1tenth/install/serial_driver:/home/jetson/f1tenth/install/vesc_ackermann:/home/jetson/f1tenth/install/io_context:/home/jetson/f1tenth/install/vesc_msgs:/home/jetson/f1tenth/install/asio_cmake_module:/home/jetson/f1tenth/install/ackermann_mux LD_LIBRARY_PATH=/home/jetson/f1tenth/install/vesc_driver/lib:/home/jetson/f1tenth/install/serial_driver/lib:/home/jetson/f1tenth/install/vesc_ackermann/lib:/home/jetson/f1tenth/install/io_context/lib:/home/jetson/f1tenth/install/vesc_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/jetson/f1tenth/build/f1tenth_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/f1tenth/install/f1tenth_stack/lib/python3.10/site-packages:/home/jetson/f1tenth/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/f1tenth/build/f1tenth_stack/build --no-deps symlink_data

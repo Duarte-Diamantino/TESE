@@ -1,0 +1,7 @@
+{
+    "cmake.ignoreCMakeListsMissing": true,
+    "files.associations": {
+        "algorithm": "cpp",
+        "functional": "cpp"
+    }
+}

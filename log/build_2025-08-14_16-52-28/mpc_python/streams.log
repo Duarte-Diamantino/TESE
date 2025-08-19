@@ -1,0 +1,19 @@
+[1.772s] Invoking command in '/home/jetson/f1tenth/build/mpc_python': PYTHONPATH=/home/jetson/f1tenth/build/mpc_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/f1tenth/install/mpc_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/f1tenth/build/mpc_python/build --no-deps symlink_data
+[2.421s] running develop
+[2.851s] running egg_info
+[2.852s] creating mpc_python.egg-info
+[2.853s] writing mpc_python.egg-info/PKG-INFO
+[2.853s] writing dependency_links to mpc_python.egg-info/dependency_links.txt
+[2.853s] writing entry points to mpc_python.egg-info/entry_points.txt
+[2.854s] writing requirements to mpc_python.egg-info/requires.txt
+[2.854s] writing top-level names to mpc_python.egg-info/top_level.txt
+[2.854s] writing manifest file 'mpc_python.egg-info/SOURCES.txt'
+[2.857s] reading manifest file 'mpc_python.egg-info/SOURCES.txt'
+[2.858s] writing manifest file 'mpc_python.egg-info/SOURCES.txt'
+[2.973s] running build_ext
+[2.973s] Creating /home/jetson/f1tenth/install/mpc_python/lib/python3.10/site-packages/mpc-python.egg-link (link to .)
+[2.976s] Installing mpc_controller script to /home/jetson/f1tenth/install/mpc_python/lib/mpc_python
+[2.976s] 
+[2.977s] Installed /home/jetson/f1tenth/build/mpc_python
+[2.977s] running symlink_data
+[3.065s] Invoked command in '/home/jetson/f1tenth/build/mpc_python' returned '0': PYTHONPATH=/home/jetson/f1tenth/build/mpc_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/f1tenth/install/mpc_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/f1tenth/build/mpc_python/build --no-deps symlink_data

@@ -1,0 +1,4 @@
+source;share/dwa_follower/local_setup.bash
+source;share/dwa_follower/local_setup.dsv
+source;share/dwa_follower/local_setup.sh
+source;share/dwa_follower/local_setup.zsh

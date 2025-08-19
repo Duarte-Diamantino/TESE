@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target dwa_follower_node[0m
+[35m[1mConsolidate compiler generated dependencies of target dwa_global_follower[0m
+[ 33%] Built target dwa_spline_follower
+[ 66%] Built target dwa_follower_node
+[ 83%] [32mBuilding CXX object CMakeFiles/dwa_global_follower.dir/src/dwa_global_follower.cpp.o[0m
+[01m[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_global_follower.cpp:[m[K In member function ‘[01m[Kvoid DwaGlobalFollower::pathCb(nav_msgs::msg::Path_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_global_follower.cpp:199:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _header_type[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::Header_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kseq[m[K’
+  199 |     if (ps.header.[01;31m[Kseq[m[K != 0) {
+      |                   [01;31m[K^~~[m[K
+[01m[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_global_follower.cpp:200:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _header_type[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::Header_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kseq[m[K’
+  200 |       ordem = static_cast<long long>(ps.header.[01;31m[Kseq[m[K);
+      |                                                [01;31m[K^~~[m[K
+[01m[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_global_follower.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DwaGlobalFollower::getLocalGoal() const[m[K’:
+[01m[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_global_follower.cpp:295:61:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+  295 | std::pair<double, double> DwaGlobalFollower::getLocalGoal() [01;36m[Kconst[m[K {
+      |                                                             [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/dwa_global_follower.dir/build.make:76: CMakeFiles/dwa_global_follower.dir/src/dwa_global_follower.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/dwa_global_follower.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

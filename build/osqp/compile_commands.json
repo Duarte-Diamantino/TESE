@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jetson/f1tenth/build/osqp/_deps/qdldl-build",
+  "command": "/usr/bin/cc  -I/home/jetson/f1tenth/build/osqp/_deps/qdldl-src/include -I/home/jetson/f1tenth/build/osqp/_deps/qdldl-build/include  -O3 -O3 -fPIC -o CMakeFiles/qdldlobject.dir/src/qdldl.c.o -c /home/jetson/f1tenth/build/osqp/_deps/qdldl-src/src/qdldl.c",
+  "file": "/home/jetson/f1tenth/build/osqp/_deps/qdldl-src/src/qdldl.c"
+}
+]

@@ -1,0 +1,48 @@
+[1.634s] Invoking command in '/home/jetson/f1tenth/src/pickup_description': PYTHONPATH=/home/jetson/f1tenth/src/pickup_description/build/pickup_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/pickup_description build --build-base /home/jetson/f1tenth/src/pickup_description/build/pickup_description/build install --record /home/jetson/f1tenth/src/pickup_description/build/pickup_description/install.log --single-version-externally-managed install_data
+[2.231s] running egg_info
+[2.232s] creating build/pickup_description/pickup_description.egg-info
+[2.233s] writing build/pickup_description/pickup_description.egg-info/PKG-INFO
+[2.233s] writing dependency_links to build/pickup_description/pickup_description.egg-info/dependency_links.txt
+[2.234s] writing entry points to build/pickup_description/pickup_description.egg-info/entry_points.txt
+[2.234s] writing requirements to build/pickup_description/pickup_description.egg-info/requires.txt
+[2.234s] writing top-level names to build/pickup_description/pickup_description.egg-info/top_level.txt
+[2.234s] writing manifest file 'build/pickup_description/pickup_description.egg-info/SOURCES.txt'
+[2.240s] reading manifest file 'build/pickup_description/pickup_description.egg-info/SOURCES.txt'
+[2.242s] writing manifest file 'build/pickup_description/pickup_description.egg-info/SOURCES.txt'
+[2.242s] running build
+[2.242s] running build_py
+[2.243s] creating /home/jetson/f1tenth/src/pickup_description/build/pickup_description/build
+[2.243s] creating /home/jetson/f1tenth/src/pickup_description/build/pickup_description/build/lib
+[2.243s] creating /home/jetson/f1tenth/src/pickup_description/build/pickup_description/build/lib/pickup_description
+[2.243s] copying pickup_description/__init__.py -> /home/jetson/f1tenth/src/pickup_description/build/pickup_description/build/lib/pickup_description
+[2.243s] copying pickup_description/mov_robot_model.py -> /home/jetson/f1tenth/src/pickup_description/build/pickup_description/build/lib/pickup_description
+[2.244s] running install
+[2.245s] running install_lib
+[2.247s] creating /home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/python3.10/site-packages/pickup_description
+[2.247s] copying /home/jetson/f1tenth/src/pickup_description/build/pickup_description/build/lib/pickup_description/__init__.py -> /home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/python3.10/site-packages/pickup_description
+[2.247s] copying /home/jetson/f1tenth/src/pickup_description/build/pickup_description/build/lib/pickup_description/mov_robot_model.py -> /home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/python3.10/site-packages/pickup_description
+[2.248s] byte-compiling /home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/python3.10/site-packages/pickup_description/__init__.py to __init__.cpython-310.pyc
+[2.249s] byte-compiling /home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/python3.10/site-packages/pickup_description/mov_robot_model.py to mov_robot_model.cpython-310.pyc
+[2.251s] running install_data
+[2.251s] creating /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/ament_index
+[2.251s] creating /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/ament_index/resource_index
+[2.252s] creating /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/ament_index/resource_index/packages
+[2.252s] copying resource/pickup_description -> /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/ament_index/resource_index/packages
+[2.252s] copying package.xml -> /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/pickup_description
+[2.252s] creating /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/pickup_description/launch
+[2.252s] copying launch/map_only.launch.py -> /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/pickup_description/launch
+[2.253s] copying launch/all.launch.py -> /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/pickup_description/launch
+[2.253s] copying launch/robot.launch.py -> /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/pickup_description/launch
+[2.254s] copying launch/display.launch.py -> /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/pickup_description/launch
+[2.254s] creating /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/pickup_description/urdf
+[2.254s] copying urdf/pickup.urdf -> /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/pickup_description/urdf
+[2.255s] creating /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/pickup_description/maps
+[2.255s] copying maps/map.yaml -> /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/pickup_description/maps
+[2.255s] copying maps/map.pgm -> /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/pickup_description/maps
+[2.258s] creating /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/pickup_description/config
+[2.258s] running install_egg_info
+[2.262s] Copying build/pickup_description/pickup_description.egg-info to /home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/python3.10/site-packages/pickup_description-0.0.0-py3.10.egg-info
+[2.265s] running install_scripts
+[2.316s] Installing mov_robot_model script to /home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/pickup_description
+[2.317s] writing list of installed files to '/home/jetson/f1tenth/src/pickup_description/build/pickup_description/install.log'
+[2.403s] Invoked command in '/home/jetson/f1tenth/src/pickup_description' returned '0': PYTHONPATH=/home/jetson/f1tenth/src/pickup_description/build/pickup_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/pickup_description build --build-base /home/jetson/f1tenth/src/pickup_description/build/pickup_description/build install --record /home/jetson/f1tenth/src/pickup_description/build/pickup_description/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+[0.026s] Invoking command in '/home/jetson/f1tenth/build/dwa_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python:/opt/ros/humble /usr/bin/cmake --build /home/jetson/f1tenth/build/dwa_follower -- -j6 -l6
+[0.180s] [ 33%] Built target dwa_follower_node
+[0.180s] [ 66%] Built target dwa_global_follower
+[0.194s] [100%] Built target dwa_spline_follower
+[0.226s] Invoked command in '/home/jetson/f1tenth/build/dwa_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python:/opt/ros/humble /usr/bin/cmake --build /home/jetson/f1tenth/build/dwa_follower -- -j6 -l6
+[0.254s] Invoking command in '/home/jetson/f1tenth/build/dwa_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python:/opt/ros/humble /usr/bin/cmake --install /home/jetson/f1tenth/build/dwa_follower
+[0.273s] -- Install configuration: ""
+[0.274s] -- Execute custom install script
+[0.276s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/lib/dwa_follower/dwa_follower_node
+[0.276s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/lib/dwa_follower/dwa_spline_follower
+[0.276s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/lib/dwa_follower/dwa_global_follower
+[0.277s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/ament_index/resource_index/package_run_dependencies/dwa_follower
+[0.277s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/ament_index/resource_index/parent_prefix_path/dwa_follower
+[0.278s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/environment/ament_prefix_path.sh
+[0.278s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/environment/ament_prefix_path.dsv
+[0.279s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/environment/path.sh
+[0.279s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/environment/path.dsv
+[0.279s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/local_setup.bash
+[0.280s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/local_setup.sh
+[0.280s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/local_setup.zsh
+[0.281s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/local_setup.dsv
+[0.281s] -- Symlinking: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/package.dsv
+[0.302s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/ament_index/resource_index/packages/dwa_follower
+[0.302s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/cmake/dwa_followerConfig.cmake
+[0.303s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/cmake/dwa_followerConfig-version.cmake
+[0.303s] -- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/package.xml
+[0.310s] Invoked command in '/home/jetson/f1tenth/build/dwa_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python:/opt/ros/humble /usr/bin/cmake --install /home/jetson/f1tenth/build/dwa_follower

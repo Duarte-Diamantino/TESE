@@ -1,0 +1,6 @@
+Invoking command in '/home/jetson/f1tenth/build/spline_visualizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jetson/f1tenth/src/spline_visualizer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/f1tenth/install/spline_visualizer
+Invoked command in '/home/jetson/f1tenth/build/spline_visualizer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jetson/f1tenth/src/spline_visualizer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/f1tenth/install/spline_visualizer
+Invoking command in '/home/jetson/f1tenth/build/spline_visualizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/f1tenth/build/spline_visualizer -- -j6 -l6
+Invoked command in '/home/jetson/f1tenth/build/spline_visualizer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/f1tenth/build/spline_visualizer -- -j6 -l6
+Invoking command in '/home/jetson/f1tenth/build/spline_visualizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/f1tenth/build/spline_visualizer
+Invoked command in '/home/jetson/f1tenth/build/spline_visualizer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/f1tenth/build/spline_visualizer

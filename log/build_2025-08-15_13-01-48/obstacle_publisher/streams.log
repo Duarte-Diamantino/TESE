@@ -1,0 +1,23 @@
+[0.032s] Invoking command in '/home/jetson/f1tenth/build/obstacle_publisher': /usr/bin/cmake --build /home/jetson/f1tenth/build/obstacle_publisher -- -j6 -l6
+[0.156s] [100%] Built target obstacle_publisher_node
+[0.179s] Invoked command in '/home/jetson/f1tenth/build/obstacle_publisher' returned '0': /usr/bin/cmake --build /home/jetson/f1tenth/build/obstacle_publisher -- -j6 -l6
+[0.200s] Invoking command in '/home/jetson/f1tenth/build/obstacle_publisher': /usr/bin/cmake --install /home/jetson/f1tenth/build/obstacle_publisher
+[0.215s] -- Install configuration: ""
+[0.216s] -- Execute custom install script
+[0.217s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/lib/obstacle_publisher/obstacle_publisher_node
+[0.217s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/ament_index/resource_index/package_run_dependencies/obstacle_publisher
+[0.218s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/ament_index/resource_index/parent_prefix_path/obstacle_publisher
+[0.218s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/environment/ament_prefix_path.sh
+[0.219s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/environment/ament_prefix_path.dsv
+[0.219s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/environment/path.sh
+[0.220s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/environment/path.dsv
+[0.220s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/local_setup.bash
+[0.221s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/local_setup.sh
+[0.221s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/local_setup.zsh
+[0.221s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/local_setup.dsv
+[0.222s] -- Symlinking: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/package.dsv
+[0.248s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/ament_index/resource_index/packages/obstacle_publisher
+[0.249s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/cmake/obstacle_publisherConfig.cmake
+[0.250s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/cmake/obstacle_publisherConfig-version.cmake
+[0.250s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/package.xml
+[0.256s] Invoked command in '/home/jetson/f1tenth/build/obstacle_publisher' returned '0': /usr/bin/cmake --install /home/jetson/f1tenth/build/obstacle_publisher

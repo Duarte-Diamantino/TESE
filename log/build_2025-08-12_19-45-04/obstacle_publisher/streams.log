@@ -1,0 +1,65 @@
+[0.026s] Invoking command in '/home/jetson/f1tenth/build/obstacle_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python /usr/bin/cmake /home/jetson/f1tenth/src/obstacle_publisher -DCMAKE_INSTALL_PREFIX=/home/jetson/f1tenth/install/obstacle_publisher
+[0.053s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.350s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.379s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.460s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.467s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.482s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.631s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.640s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.694s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.815s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.846s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.944s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.128s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.128s] -- Configured cppcheck include dirs: 
+[1.129s] -- Configured cppcheck exclude dirs and/or files: 
+[1.130s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.131s] -- Added test 'lint_cmake' to check CMake code style
+[1.133s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.137s] -- Added test 'uncrustify' to check C / C++ code style
+[1.137s] -- Configured uncrustify additional arguments: 
+[1.138s] -- Added test 'xmllint' to check XML markup files
+[1.142s] -- Configuring done
+[1.168s] -- Generating done
+[1.176s] -- Build files have been written to: /home/jetson/f1tenth/build/obstacle_publisher
+[1.204s] Invoked command in '/home/jetson/f1tenth/build/obstacle_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python /usr/bin/cmake /home/jetson/f1tenth/src/obstacle_publisher -DCMAKE_INSTALL_PREFIX=/home/jetson/f1tenth/install/obstacle_publisher
+[1.205s] Invoking command in '/home/jetson/f1tenth/build/obstacle_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python /usr/bin/cmake --build /home/jetson/f1tenth/build/obstacle_publisher -- -j6 -l6
+[1.301s] [35m[1mConsolidate compiler generated dependencies of target obstacle_publisher_node[0m
+[1.342s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle_publisher_node.dir/src/obstacle_publisher.cpp.o[0m
+[7.420s] [01m[K/home/jetson/f1tenth/src/obstacle_publisher/src/obstacle_publisher.cpp:[m[K In constructor ‘[01m[KObstaclePublisher::ObstaclePublisher()[m[K’:
+[7.421s] [01m[K/home/jetson/f1tenth/src/obstacle_publisher/src/obstacle_publisher.cpp:18:49:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kconst ParameterDescriptor[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Krcl_interfaces::msg::ParameterDescriptor_<ContainerAllocator>::ParameterDescriptor_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[7.421s]    18 | [01;35m[K_parameter<std::vector<double>>("positions", {})[m[K;
+[7.421s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[7.421s] 
+[7.421s] [01m[K/home/jetson/f1tenth/src/obstacle_publisher/src/obstacle_publisher.cpp:18:49:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[7.426s] [01m[K/home/jetson/f1tenth/src/obstacle_publisher/src/obstacle_publisher.cpp:19:49:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kconst ParameterDescriptor[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Krcl_interfaces::msg::ParameterDescriptor_<ContainerAllocator>::ParameterDescriptor_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[7.427s]    19 | [01;35m[K_parameter<std::vector<double>>("goal", {})[m[K;
+[7.427s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[7.427s] 
+[7.427s] [01m[K/home/jetson/f1tenth/src/obstacle_publisher/src/obstacle_publisher.cpp:19:49:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[24.536s] [100%] [32m[1mLinking CXX executable obstacle_publisher_node[0m
+[25.674s] [100%] Built target obstacle_publisher_node
+[25.706s] Invoked command in '/home/jetson/f1tenth/build/obstacle_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python /usr/bin/cmake --build /home/jetson/f1tenth/build/obstacle_publisher -- -j6 -l6
+[25.730s] Invoking command in '/home/jetson/f1tenth/build/obstacle_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python /usr/bin/cmake --install /home/jetson/f1tenth/build/obstacle_publisher
+[25.749s] -- Install configuration: ""
+[25.749s] -- Execute custom install script
+[25.750s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/lib/obstacle_publisher/obstacle_publisher_node
+[25.751s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/ament_index/resource_index/package_run_dependencies/obstacle_publisher
+[25.751s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/ament_index/resource_index/parent_prefix_path/obstacle_publisher
+[25.752s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/environment/ament_prefix_path.sh
+[25.752s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/environment/ament_prefix_path.dsv
+[25.753s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/environment/path.sh
+[25.754s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/environment/path.dsv
+[25.754s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/local_setup.bash
+[25.754s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/local_setup.sh
+[25.754s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/local_setup.zsh
+[25.755s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/local_setup.dsv
+[25.755s] -- Symlinking: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/package.dsv
+[25.777s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/ament_index/resource_index/packages/obstacle_publisher
+[25.778s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/cmake/obstacle_publisherConfig.cmake
+[25.778s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/cmake/obstacle_publisherConfig-version.cmake
+[25.778s] -- Up-to-date symlink: /home/jetson/f1tenth/install/obstacle_publisher/share/obstacle_publisher/package.xml
+[25.783s] Invoked command in '/home/jetson/f1tenth/build/obstacle_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python /usr/bin/cmake --install /home/jetson/f1tenth/build/obstacle_publisher

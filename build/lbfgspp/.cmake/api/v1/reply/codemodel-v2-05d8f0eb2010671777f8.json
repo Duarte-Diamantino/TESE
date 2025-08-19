@@ -1,0 +1,113 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-feafe6b2e01707a75423.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "examples",
+					"jsonFile" : "directory-examples-Release-1c8b83b621b6ef38a245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lbfgspp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "example-quadratic::@714eac15f71a94114fdf",
+					"jsonFile" : "target-example-quadratic-Release-5adca6ec7904611ee110.json",
+					"name" : "example-quadratic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example-rosenbrock::@714eac15f71a94114fdf",
+					"jsonFile" : "target-example-rosenbrock-Release-460c694625389a088964.json",
+					"name" : "example-rosenbrock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example-rosenbrock-box::@714eac15f71a94114fdf",
+					"jsonFile" : "target-example-rosenbrock-box-Release-30aaa054dfb14d6525cc.json",
+					"name" : "example-rosenbrock-box",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example-rosenbrock-bracketing::@714eac15f71a94114fdf",
+					"jsonFile" : "target-example-rosenbrock-bracketing-Release-05e236606d15f62f3d75.json",
+					"name" : "example-rosenbrock-bracketing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example-rosenbrock-comparison::@714eac15f71a94114fdf",
+					"jsonFile" : "target-example-rosenbrock-comparison-Release-f8e352c6b82a75e62685.json",
+					"name" : "example-rosenbrock-comparison",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jetson/f1tenth/build/lbfgspp",
+		"source" : "/home/jetson/f1tenth/src/LBFGSpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

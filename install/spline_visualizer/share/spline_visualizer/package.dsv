@@ -1,0 +1,8 @@
+source;share/spline_visualizer/hook/cmake_prefix_path.ps1
+source;share/spline_visualizer/hook/cmake_prefix_path.dsv
+source;share/spline_visualizer/hook/cmake_prefix_path.sh
+source;share/spline_visualizer/local_setup.bash
+source;share/spline_visualizer/local_setup.dsv
+source;share/spline_visualizer/local_setup.ps1
+source;share/spline_visualizer/local_setup.sh
+source;share/spline_visualizer/local_setup.zsh

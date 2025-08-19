@@ -1,0 +1,21 @@
+[1.642s] Invoking command in '/home/jetson/f1tenth/src/pickup_description': PYTHONPATH=/home/jetson/f1tenth/src/pickup_description/build/pickup_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/pickup_description build --build-base /home/jetson/f1tenth/src/pickup_description/build/pickup_description/build install --record /home/jetson/f1tenth/src/pickup_description/build/pickup_description/install.log --single-version-externally-managed install_data
+[2.244s] running egg_info
+[2.245s] writing build/pickup_description/pickup_description.egg-info/PKG-INFO
+[2.246s] writing dependency_links to build/pickup_description/pickup_description.egg-info/dependency_links.txt
+[2.246s] writing entry points to build/pickup_description/pickup_description.egg-info/entry_points.txt
+[2.247s] writing requirements to build/pickup_description/pickup_description.egg-info/requires.txt
+[2.247s] writing top-level names to build/pickup_description/pickup_description.egg-info/top_level.txt
+[2.252s] reading manifest file 'build/pickup_description/pickup_description.egg-info/SOURCES.txt'
+[2.254s] writing manifest file 'build/pickup_description/pickup_description.egg-info/SOURCES.txt'
+[2.255s] running build
+[2.255s] running build_py
+[2.255s] running install
+[2.256s] running install_lib
+[2.259s] running install_data
+[2.260s] running install_egg_info
+[2.264s] removing '/home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/python3.10/site-packages/pickup_description-0.0.0-py3.10.egg-info' (and everything under it)
+[2.265s] Copying build/pickup_description/pickup_description.egg-info to /home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/python3.10/site-packages/pickup_description-0.0.0-py3.10.egg-info
+[2.267s] running install_scripts
+[2.313s] Installing mov_robot_model script to /home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/pickup_description
+[2.314s] writing list of installed files to '/home/jetson/f1tenth/src/pickup_description/build/pickup_description/install.log'
+[2.391s] Invoked command in '/home/jetson/f1tenth/src/pickup_description' returned '0': PYTHONPATH=/home/jetson/f1tenth/src/pickup_description/build/pickup_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/pickup_description build --build-base /home/jetson/f1tenth/src/pickup_description/build/pickup_description/build install --record /home/jetson/f1tenth/src/pickup_description/build/pickup_description/install.log --single-version-externally-managed install_data

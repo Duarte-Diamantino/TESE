@@ -1,0 +1,5 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/dwa_global_follower.dir/src/dwa_global_follower.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/dwa_follower_node.dir/src/dwa_follower.cpp.o[0m
+[ 66%] Built target dwa_spline_follower
+[ 83%] [32m[1mLinking CXX executable dwa_follower_node[0m
+[ 83%] Built target dwa_follower_node

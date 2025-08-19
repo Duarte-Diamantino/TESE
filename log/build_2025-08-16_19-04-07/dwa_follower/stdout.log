@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target dwa_global_follower[0m
+[ 33%] Built target dwa_follower_node
+[ 66%] Built target dwa_global_follower
+[100%] Built target dwa_spline_follower
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/lib/dwa_follower/dwa_follower_node
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/lib/dwa_follower/dwa_spline_follower
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/lib/dwa_follower/dwa_global_follower
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/ament_index/resource_index/package_run_dependencies/dwa_follower
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/ament_index/resource_index/parent_prefix_path/dwa_follower
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/environment/path.sh
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/environment/path.dsv
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/local_setup.bash
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/local_setup.sh
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/local_setup.zsh
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/local_setup.dsv
+-- Symlinking: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/package.dsv
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/ament_index/resource_index/packages/dwa_follower
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/cmake/dwa_followerConfig.cmake
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/cmake/dwa_followerConfig-version.cmake
+-- Up-to-date symlink: /home/jetson/f1tenth/install/dwa_follower/share/dwa_follower/package.xml

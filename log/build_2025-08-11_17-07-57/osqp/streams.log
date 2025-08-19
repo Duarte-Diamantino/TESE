@@ -1,0 +1,203 @@
+[0.045s] Invoking command in '/home/jetson/f1tenth/build/osqp': /usr/bin/cmake /home/jetson/f1tenth/osqp -DCMAKE_INSTALL_PREFIX=/home/jetson/f1tenth/install/osqp
+[0.182s] -- The C compiler identification is GNU 11.4.0
+[0.337s] -- The CXX compiler identification is GNU 11.4.0
+[0.353s] -- Detecting C compiler ABI info
+[0.530s] -- Detecting C compiler ABI info - done
+[0.548s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.548s] -- Detecting C compile features
+[0.549s] -- Detecting C compile features - done
+[0.556s] -- Detecting CXX compiler ABI info
+[0.741s] -- Detecting CXX compiler ABI info - done
+[0.767s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.768s] -- Detecting CXX compile features
+[0.769s] -- Detecting CXX compile features - done
+[0.777s] -- Debug mode: 
+[0.778s] -- We are on a Linux system
+[0.778s] -- Embedded mode: OFF
+[0.778s] -- Algebra backend: builtin
+[0.778s] -- Solver profiling: ON
+[0.778s] -- Solver interrupt: ON
+[0.778s] -- Using double precision floating-point
+[0.779s] -- Using long integers
+[0.779s] -- Code generation: ON
+[0.779s] -- Derivative support: ON
+[0.786s] -- Fetching/configuring QDLDL solver
+[4.879s] --   Using double precision floats
+[4.879s] --   Long integers (64bit) are ON
+[4.884s] --   Static library build is OFF
+[4.884s] --   Shared library build is OFF
+[4.884s] --   Demo executable build is OFF
+[4.885s] --   Not building demo executable
+[4.885s] --   Unit testing suite build is OFF
+[4.886s] -- Build static library: ON
+[4.886s] -- Build shared library: ON
+[4.886s] -- Build demo executable: ON
+[4.889s] -- Configuring done
+[5.025s] -- Generating done
+[5.075s] -- Build files have been written to: /home/jetson/f1tenth/build/osqp
+[5.112s] Invoked command in '/home/jetson/f1tenth/build/osqp' returned '0': /usr/bin/cmake /home/jetson/f1tenth/osqp -DCMAKE_INSTALL_PREFIX=/home/jetson/f1tenth/install/osqp
+[5.114s] Invoking command in '/home/jetson/f1tenth/build/osqp': /usr/bin/cmake --build /home/jetson/f1tenth/build/osqp -- -j6 -l6
+[7.832s] [  1%] [34m[1mCopying algebra_libs.c[0m
+[7.832s] [  2%] [34m[1mCopying algebra_impl.h[0m
+[7.832s] [  3%] [34m[1mCopying codegen makefile[0m
+[7.832s] [  5%] [34m[1mCopying algebra_matrix.h[0m
+[7.832s] [  5%] [34m[1mCopying auxil.c[0m
+[7.833s] [  6%] [32mBuilding C object _deps/qdldl-build/CMakeFiles/qdldlobject.dir/src/qdldl.c.o[0m
+[7.833s] [  8%] [34m[1mCopying vector.c[0m
+[7.833s] [  8%] Built target copy_codegen_makefile
+[7.833s] [  9%] [34m[1mCopying matrix.c[0m
+[7.833s] [ 10%] [34m[1mCopying algebra_vector.h[0m
+[7.833s] [ 11%] [34m[1mCopying error.c[0m
+[7.833s] [ 12%] [34m[1mCopying csc_math.h[0m
+[7.834s] [ 13%] [34m[1mCopying osqp_api.c[0m
+[7.834s] [ 15%] [34m[1mCopying csc_math.c[0m
+[7.834s] [ 16%] [34m[1mCopying scaling.c[0m
+[7.834s] [ 17%] [34m[1mCopying auxil.h[0m
+[7.834s] [ 18%] [34m[1mCopying csc_utils.h[0m
+[7.834s] [ 19%] [34m[1mCopying util.c[0m
+[7.834s] [ 20%] [34m[1mCopying csc_utils.c[0m
+[7.854s] [ 22%] [34m[1mCopying error.h[0m
+[7.854s] [ 23%] [34m[1mCopying glob_opts.h[0m
+[7.855s] [ 24%] [34m[1mCopying kkt.h[0m
+[7.855s] [ 25%] [34m[1mCopying kkt.c[0m
+[7.855s] [ 25%] Built target copy_codegen_srcs
+[7.855s] [ 26%] [34m[1mCopying lin_alg.h[0m
+[7.855s] [ 27%] [34m[1mCopying qdldl_interface.h[0m
+[7.855s] [ 29%] [34m[1mCopying printing.h[0m
+[7.856s] [ 30%] [34m[1mCopying profilers.h[0m
+[7.856s] [ 31%] [34m[1mCopying qdldl_interface.c[0m
+[7.856s] [ 32%] [34m[1mCopying scaling.h[0m
+[7.856s] [ 33%] [34m[1mCopying qdldl.c[0m
+[7.856s] [ 33%] Built target qdldlobject
+[7.856s] [ 34%] [34m[1mCopying qdldl.h[0m
+[7.856s] [ 36%] [34m[1mCopying timing.h[0m
+[7.857s] [ 37%] [34m[1mCopying qdldl_version.h[0m
+[7.857s] [ 38%] [34m[1mCopying types.h[0m
+[7.857s] [ 39%] [34m[1mCopying qdldl_types.h[0m
+[7.857s] [ 40%] [34m[1mCopying util.h[0m
+[7.857s] [ 41%] [34m[1mCopying version.h[0m
+[7.857s] [ 43%] [34m[1mCopying osqp.h[0m
+[7.857s] [ 44%] [34m[1mCopying osqp_api_constants.h[0m
+[7.857s] [ 45%] [34m[1mCopying osqp_api_types.h[0m
+[7.858s] [ 46%] [34m[1mCopying osqp_api_functions.h[0m
+[7.858s] [ 45%] Built target copy_codegen_linalg
+[7.858s] [ 47%] [34m[1mCopying osqp_export_define.h[0m
+[7.858s] [ 47%] Built target copy_codegen_incs
+[7.858s] [ 48%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/src/error.c.o[0m
+[7.859s] [ 50%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/src/auxil.c.o[0m
+[7.859s] [ 51%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/src/polish.c.o[0m
+[7.859s] [ 52%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/src/scaling.c.o[0m
+[7.859s] [ 53%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/src/util.c.o[0m
+[7.860s] [ 53%] Built target copy_codegen_files
+[7.860s] [ 54%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/src/derivative.c.o[0m
+[7.860s] [ 55%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/src/interrupt_unix.c.o[0m
+[7.860s] [ 56%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/src/timing_linux.c.o[0m
+[7.861s] [ 58%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/src/codegen.c.o[0m
+[7.913s] [ 59%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/csc_math.c.o[0m
+[7.930s] [ 60%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/csc_utils.c.o[0m
+[8.002s] [ 61%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/builtin/algebra_libs.c.o[0m
+[8.424s] [ 62%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/builtin/vector.c.o[0m
+[8.483s] [ 63%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/builtin/matrix.c.o[0m
+[9.022s] [ 65%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/lin_sys/qdldl/amd/src/SuiteSparse_config.c.o[0m
+[9.182s] [ 66%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/lin_sys/qdldl/amd/src/amd_1.c.o[0m
+[9.444s] [ 67%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/lin_sys/qdldl/amd/src/amd_2.c.o[0m
+[9.699s] [ 68%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/lin_sys/qdldl/amd/src/amd_aat.c.o[0m
+[9.869s] [ 69%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/lin_sys/qdldl/amd/src/amd_control.c.o[0m
+[10.261s] [ 70%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/lin_sys/qdldl/amd/src/amd_defaults.c.o[0m
+[10.270s] [ 72%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/lin_sys/qdldl/amd/src/amd_info.c.o[0m
+[10.297s] [ 73%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/lin_sys/qdldl/amd/src/amd_order.c.o[0m
+[10.532s] [ 74%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/lin_sys/qdldl/amd/src/amd_post_tree.c.o[0m
+[10.765s] [ 75%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/lin_sys/qdldl/amd/src/amd_postorder.c.o[0m
+[10.768s] [ 76%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/lin_sys/qdldl/amd/src/amd_preprocess.c.o[0m
+[10.869s] [ 77%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/lin_sys/qdldl/amd/src/amd_valid.c.o[0m
+[10.916s] [ 79%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/kkt.c.o[0m
+[11.302s] [ 80%] [32mBuilding C object CMakeFiles/OSQPLIB.dir/algebra/_common/lin_sys/qdldl/qdldl_interface.c.o[0m
+[13.539s] [ 80%] Built target OSQPLIB
+[13.736s] [ 81%] [32mBuilding C object CMakeFiles/osqpstatic.dir/src/osqp_api.c.o[0m
+[13.772s] [ 82%] [32mBuilding C object CMakeFiles/osqp.dir/src/osqp_api.c.o[0m
+[16.590s] [ 83%] [32m[1mLinking C static library out/libosqpstatic.a[0m
+[16.986s] [ 83%] Built target osqpstatic
+[17.249s] [ 84%] [32m[1mLinking C shared library out/libosqp.so[0m
+[17.281s] [ 86%] [32mBuilding C object CMakeFiles/osqp_codegen_demo.dir/examples/osqp_codegen_demo.c.o[0m
+[17.338s] [ 87%] [32mBuilding C object CMakeFiles/osqp_demo.dir/examples/problems/qpcblend.c.o[0m
+[17.359s] [ 88%] [32mBuilding C object CMakeFiles/osqp_demo.dir/examples/problems/cvxqp2_s.c.o[0m
+[17.361s] [ 89%] [32mBuilding C object CMakeFiles/osqp_demo.dir/examples/osqp_demo.c.o[0m
+[17.374s] [ 90%] [32mBuilding C object CMakeFiles/osqp_simple_demo.dir/examples/osqp_simple_demo.c.o[0m
+[17.900s] [ 90%] Built target osqp
+[17.925s] [ 91%] [32mBuilding C object CMakeFiles/osqp_demo.dir/examples/problems/qptest.c.o[0m
+[17.948s] [ 93%] [32mBuilding C object CMakeFiles/osqp_demo.dir/examples/problems/hs21.c.o[0m
+[17.992s] [ 94%] [32m[1mLinking C executable out/osqp_codegen_demo[0m
+[18.011s] [ 95%] [32m[1mLinking C executable out/osqp_simple_demo[0m
+[18.014s] [ 96%] [32mBuilding C object CMakeFiles/osqp_demo.dir/examples/problems/hs35.c.o[0m
+[18.102s] [ 97%] [32mBuilding C object CMakeFiles/osqp_demo.dir/examples/problems/primalc1.c.o[0m
+[18.451s] [ 98%] [32mBuilding C object CMakeFiles/osqp_demo.dir/examples/problems/largeqp.c.o[0m
+[18.521s] [ 98%] Built target osqp_codegen_demo
+[18.580s] [ 98%] Built target osqp_simple_demo
+[18.777s] [100%] [32m[1mLinking C executable out/osqp_demo[0m
+[19.145s] [100%] Built target osqp_demo
+[19.264s] Invoked command in '/home/jetson/f1tenth/build/osqp' returned '0': /usr/bin/cmake --build /home/jetson/f1tenth/build/osqp -- -j6 -l6
+[19.267s] Invoking command in '/home/jetson/f1tenth/build/osqp': /usr/bin/cmake --install /home/jetson/f1tenth/build/osqp
+[44.375s] -- Install configuration: ""
+[44.376s] -- Installing: /home/jetson/f1tenth/install/osqp/include/qdldl/qdldl.h
+[44.377s] -- Installing: /home/jetson/f1tenth/install/osqp/include/qdldl/qdldl_types.h
+[44.377s] -- Installing: /home/jetson/f1tenth/install/osqp/include/qdldl/qdldl_version.h
+[44.377s] -- Installing: /home/jetson/f1tenth/install/osqp/include/osqp/osqp.h
+[44.377s] -- Installing: /home/jetson/f1tenth/install/osqp/include/osqp/osqp_api_constants.h
+[44.377s] -- Installing: /home/jetson/f1tenth/install/osqp/include/osqp/osqp_api_functions.h
+[44.377s] -- Installing: /home/jetson/f1tenth/install/osqp/include/osqp/osqp_api_types.h
+[44.378s] -- Installing: /home/jetson/f1tenth/install/osqp/include/osqp/osqp_export_define.h
+[44.378s] -- Installing: /home/jetson/f1tenth/install/osqp/include/osqp/osqp_configure.h
+[44.378s] -- Installing: /home/jetson/f1tenth/install/osqp/lib/libosqpstatic.a
+[44.378s] -- Installing: /home/jetson/f1tenth/install/osqp/lib/cmake/osqp/osqpstatic-targets.cmake
+[44.379s] -- Installing: /home/jetson/f1tenth/install/osqp/lib/cmake/osqp/osqpstatic-targets-noconfig.cmake
+[44.379s] -- Installing: /home/jetson/f1tenth/install/osqp/lib/libosqp.so
+[44.379s] -- Installing: /home/jetson/f1tenth/install/osqp/lib/cmake/osqp/osqp-targets.cmake
+[44.379s] -- Installing: /home/jetson/f1tenth/install/osqp/lib/cmake/osqp/osqp-targets-noconfig.cmake
+[44.379s] -- Installing: /home/jetson/f1tenth/install/osqp/lib/cmake/osqp/osqp-config.cmake
+[44.379s] -- Installing: /home/jetson/f1tenth/install/osqp/lib/cmake/osqp/osqp-config-version.cmake
+[44.381s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files
+[44.381s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc
+[44.382s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private
+[44.382s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/qdldl.h
+[44.382s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/error.h
+[44.382s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/algebra_matrix.h
+[44.382s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/printing.h
+[44.382s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/csc_math.h
+[44.382s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/csc_utils.h
+[44.383s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/glob_opts.h
+[44.383s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/qdldl_version.h
+[44.383s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/algebra_vector.h
+[44.383s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/timing.h
+[44.383s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/qdldl_interface.h
+[44.383s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/util.h
+[44.384s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/auxil.h
+[44.384s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/scaling.h
+[44.384s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/qdldl_types.h
+[44.384s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/profilers.h
+[44.384s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/version.h
+[44.384s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/kkt.h
+[44.384s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/types.h
+[44.384s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/lin_alg.h
+[44.385s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/private/algebra_impl.h
+[44.385s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/public
+[44.385s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/public/osqp_api_types.h
+[44.385s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/public/osqp_export_define.h
+[44.385s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/public/osqp_api_constants.h
+[44.385s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/public/osqp.h
+[44.385s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/inc/public/osqp_api_functions.h
+[44.386s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/Makefile
+[44.386s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/src
+[44.386s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/src/qdldl.c
+[44.386s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/src/vector.c
+[44.386s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/src/matrix.c
+[44.386s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/src/util.c
+[44.398s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/src/scaling.c
+[44.399s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/src/auxil.c
+[44.399s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/src/osqp_api.c
+[44.399s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/src/qdldl_interface.c
+[44.399s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/src/algebra_libs.c
+[44.399s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/src/error.c
+[44.399s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/src/csc_utils.c
+[44.400s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/src/csc_math.c
+[44.400s] -- Installing: /home/jetson/f1tenth/install/osqp/share/osqp/codegen_files/src/kkt.c
+[44.403s] Invoked command in '/home/jetson/f1tenth/build/osqp' returned '0': /usr/bin/cmake --install /home/jetson/f1tenth/build/osqp

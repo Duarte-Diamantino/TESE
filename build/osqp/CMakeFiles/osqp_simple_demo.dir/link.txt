@@ -1,0 +1,1 @@
+/usr/bin/cc  -O3 CMakeFiles/osqp_simple_demo.dir/examples/osqp_simple_demo.c.o -o out/osqp_simple_demo  out/libosqpstatic.a  -lm -lrt -ldl 

@@ -1,0 +1,4 @@
+[01m[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_spline_follower.cpp:[m[K In member function ‘[01m[Kstd::pair<Pt, Pt> DwaSplineFollower::getTargetPoints() const[m[K’:
+[01m[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_spline_follower.cpp:144:44:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<Pt, Pt>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  144 |   std::pair<Pt,Pt> getTargetPoints() const [01;36m[K{[m[K
+      |                                            [01;36m[K^[m[K

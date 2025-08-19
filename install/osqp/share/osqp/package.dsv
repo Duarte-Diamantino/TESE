@@ -1,0 +1,6 @@
+source;share/osqp/hook/cmake_prefix_path.ps1
+source;share/osqp/hook/cmake_prefix_path.dsv
+source;share/osqp/hook/cmake_prefix_path.sh
+source;share/osqp/hook/ld_library_path_lib.ps1
+source;share/osqp/hook/ld_library_path_lib.dsv
+source;share/osqp/hook/ld_library_path_lib.sh

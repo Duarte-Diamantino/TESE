@@ -1,0 +1,284 @@
+[0.000000] (-) TimerEvent: {}
+[0.001106] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.001257] (-) JobUnselected: {'identifier': 'asio_cmake_module'}
+[0.001885] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.002245] (-) JobUnselected: {'identifier': 'io_context'}
+[0.002590] (-) JobUnselected: {'identifier': 'lbfgspp'}
+[0.002705] (-) JobUnselected: {'identifier': 'mpc_python'}
+[0.002844] (-) JobUnselected: {'identifier': 'obstacle_publisher'}
+[0.002968] (-) JobUnselected: {'identifier': 'osqp'}
+[0.003067] (-) JobUnselected: {'identifier': 'osqp-eigen'}
+[0.003266] (-) JobUnselected: {'identifier': 'pickup_description'}
+[0.003353] (-) JobUnselected: {'identifier': 'serial_driver'}
+[0.003430] (-) JobUnselected: {'identifier': 'spline_visualizer'}
+[0.003503] (-) JobUnselected: {'identifier': 'udp_driver'}
+[0.003576] (-) JobUnselected: {'identifier': 'vesc'}
+[0.003648] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.003720] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.003791] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.003862] (dwa_follower) JobQueued: {'identifier': 'dwa_follower', 'dependencies': OrderedDict()}
+[0.003960] (dwa_follower) JobStarted: {'identifier': 'dwa_follower'}
+[0.023958] (dwa_follower) JobProgress: {'identifier': 'dwa_follower', 'progress': 'cmake'}
+[0.026466] (dwa_follower) JobProgress: {'identifier': 'dwa_follower', 'progress': 'build'}
+[0.028058] (dwa_follower) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/f1tenth/build/dwa_follower', '--', '-j6', '-l6'], 'cwd': '/home/jetson/f1tenth/build/dwa_follower', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '10.13.5.10 53296 22'), ('LC_TIME', 'pt_PT.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/f1tenth/install/vesc_driver/lib:/home/jetson/f1tenth/install/vesc_ackermann/lib:/home/jetson/f1tenth/install/vesc_msgs/lib:/home/jetson/f1tenth/install/udp_driver/lib:/home/jetson/f1tenth/install/serial_driver/lib:/home/jetson/f1tenth/install/osqp-eigen/lib:/home/jetson/f1tenth/install/osqp/lib:/home/jetson/f1tenth/install/io_context/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('CYCLONEDDS_URI', 'file:///home/jetson/.config/cyclonedds/CycloneDDS.xml'), ('OLDPWD', '/home/jetson/f1tenth'), ('SSH_TTY', '/dev/pts/6'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jetson/f1tenth/install:/home/jetson/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1422124359073'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/f1tenth/install/osqp-eigen/lib/aarch64-linux-gnu/pkgconfig:/home/jetson/f1tenth/install/osqp-eigen/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jetson/.local/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/vesc:/home/jetson/f1tenth/install/vesc_driver:/home/jetson/f1tenth/install/vesc_ackermann:/home/jetson/f1tenth/install/vesc_msgs:/home/jetson/f1tenth/install/udp_driver:/home/jetson/f1tenth/install/spline_visualizer:/home/jetson/f1tenth/install/serial_driver:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/obstacle_publisher:/home/jetson/f1tenth/install/mpc_python:/home/jetson/f1tenth/install/io_context:/home/jetson/f1tenth/install/dwa_follower:/home/jetson/f1tenth/install/asio_cmake_module:/home/jetson/f1tenth/install/ackermann_mux:/home/jetson/install/pickup_description:/home/jetson/install/mpc_python:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('ROS_DISCOVERY_SERVER', '10.13.5.6:11811'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/f1tenth/build/dwa_follower'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.13.5.10 53296 10.13.5.7 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/f1tenth/build/f1tenth_stack:/home/jetson/f1tenth/install/f1tenth_stack/lib/python3.10/site-packages:/home/jetson/f1tenth/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/jetson/f1tenth/install/pickup_description/lib/python3.10/site-packages:/home/jetson/f1tenth/build/mpc_python:/home/jetson/f1tenth/install/mpc_python/lib/python3.10/site-packages:/home/jetson/install/pickup_description/lib/python3.10/site-packages:/home/jetson/build/mpc_python:/home/jetson/install/mpc_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/jetson/f1tenth/install/vesc:/home/jetson/f1tenth/install/vesc_driver:/home/jetson/f1tenth/install/vesc_ackermann:/home/jetson/f1tenth/install/vesc_msgs:/home/jetson/f1tenth/install/udp_driver:/home/jetson/f1tenth/install/spline_visualizer:/home/jetson/f1tenth/install/serial_driver:/home/jetson/f1tenth/install/osqp-eigen:/home/jetson/f1tenth/install/osqp:/home/jetson/f1tenth/install/obstacle_publisher:/home/jetson/f1tenth/install/lbfgspp:/home/jetson/f1tenth/install/io_context:/home/jetson/f1tenth/install/dwa_follower:/home/jetson/f1tenth/install/asio_cmake_module:/home/jetson/f1tenth/install/ackermann_mux:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python:/home/jetson/install/pickup_description:/home/jetson/install/mpc_python:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.099011] (-) TimerEvent: {}
+[0.130321] (dwa_follower) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dwa_follower_node\x1b[0m\n'}
+[0.163789] (dwa_follower) StdoutLine: {'line': b'[ 66%] Built target dwa_global_follower\n'}
+[0.164270] (dwa_follower) StdoutLine: {'line': b'[ 66%] Built target dwa_spline_follower\n'}
+[0.170541] (dwa_follower) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/dwa_follower_node.dir/src/dwa_follower.cpp.o\x1b[0m\n'}
+[0.199170] (-) TimerEvent: {}
+[0.300141] (-) TimerEvent: {}
+[0.400895] (-) TimerEvent: {}
+[0.501620] (-) TimerEvent: {}
+[0.606939] (-) TimerEvent: {}
+[0.707531] (-) TimerEvent: {}
+[0.808330] (-) TimerEvent: {}
+[0.908997] (-) TimerEvent: {}
+[1.009602] (-) TimerEvent: {}
+[1.110413] (-) TimerEvent: {}
+[1.211226] (-) TimerEvent: {}
+[1.312540] (-) TimerEvent: {}
+[1.413505] (-) TimerEvent: {}
+[1.514149] (-) TimerEvent: {}
+[1.614795] (-) TimerEvent: {}
+[1.715456] (-) TimerEvent: {}
+[1.816077] (-) TimerEvent: {}
+[1.916742] (-) TimerEvent: {}
+[2.017397] (-) TimerEvent: {}
+[2.118059] (-) TimerEvent: {}
+[2.222024] (-) TimerEvent: {}
+[2.322825] (-) TimerEvent: {}
+[2.423914] (-) TimerEvent: {}
+[2.524566] (-) TimerEvent: {}
+[2.625236] (-) TimerEvent: {}
+[2.725801] (-) TimerEvent: {}
+[2.826415] (-) TimerEvent: {}
+[2.927000] (-) TimerEvent: {}
+[3.027595] (-) TimerEvent: {}
+[3.128532] (-) TimerEvent: {}
+[3.229334] (-) TimerEvent: {}
+[3.330247] (-) TimerEvent: {}
+[3.431114] (-) TimerEvent: {}
+[3.531795] (-) TimerEvent: {}
+[3.632896] (-) TimerEvent: {}
+[3.733587] (-) TimerEvent: {}
+[3.834254] (-) TimerEvent: {}
+[3.934878] (-) TimerEvent: {}
+[4.035651] (-) TimerEvent: {}
+[4.136348] (-) TimerEvent: {}
+[4.241988] (-) TimerEvent: {}
+[4.356412] (-) TimerEvent: {}
+[4.458010] (-) TimerEvent: {}
+[4.559812] (-) TimerEvent: {}
+[4.661708] (-) TimerEvent: {}
+[4.762433] (-) TimerEvent: {}
+[4.863145] (-) TimerEvent: {}
+[4.963907] (-) TimerEvent: {}
+[5.064549] (-) TimerEvent: {}
+[5.165282] (-) TimerEvent: {}
+[5.266103] (-) TimerEvent: {}
+[5.366780] (-) TimerEvent: {}
+[5.467497] (-) TimerEvent: {}
+[5.569107] (-) TimerEvent: {}
+[5.669829] (-) TimerEvent: {}
+[5.770629] (-) TimerEvent: {}
+[5.871260] (-) TimerEvent: {}
+[5.971863] (-) TimerEvent: {}
+[6.072464] (-) TimerEvent: {}
+[6.173224] (-) TimerEvent: {}
+[6.273895] (-) TimerEvent: {}
+[6.374839] (-) TimerEvent: {}
+[6.475666] (-) TimerEvent: {}
+[6.576431] (-) TimerEvent: {}
+[6.579725] (dwa_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_follower.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDwaGlobalFollower::DwaGlobalFollower()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.580361] (dwa_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_follower.cpp:45:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDwaGlobalFollower::horizon_s_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.580571] (dwa_follower) StderrLine: {'line': b'   45 |   double \x1b[01;35m\x1b[Khorizon_s_\x1b[m\x1b[K;\n'}
+[6.580735] (dwa_follower) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.580888] (dwa_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_follower.cpp:37:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kdouble DwaGlobalFollower::lookahead_dist_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.581042] (dwa_follower) StderrLine: {'line': b'   37 |   double \x1b[01;35m\x1b[Klookahead_dist_\x1b[m\x1b[K;\n'}
+[6.581183] (dwa_follower) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.581317] (dwa_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_follower.cpp:86:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.581492] (dwa_follower) StderrLine: {'line': b'   86 | \x1b[01;35m\x1b[KDwaGlobalFollower\x1b[m\x1b[K::DwaGlobalFollower()\n'}
+[6.581630] (dwa_follower) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.581761] (dwa_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_follower.cpp:48:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDwaGlobalFollower::second_level_samples_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.581900] (dwa_follower) StderrLine: {'line': b'   48 |   int \x1b[01;35m\x1b[Ksecond_level_samples_\x1b[m\x1b[K;\n'}
+[6.582069] (dwa_follower) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.582206] (dwa_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_follower.cpp:36:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kdouble DwaGlobalFollower::min_safe_distance_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.582343] (dwa_follower) StderrLine: {'line': b'   36 |   double \x1b[01;35m\x1b[Kmin_safe_distance_\x1b[m\x1b[K;\n'}
+[6.582473] (dwa_follower) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.582601] (dwa_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_follower.cpp:86:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.582732] (dwa_follower) StderrLine: {'line': b'   86 | \x1b[01;35m\x1b[KDwaGlobalFollower\x1b[m\x1b[K::DwaGlobalFollower()\n'}
+[6.582859] (dwa_follower) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.676587] (-) TimerEvent: {}
+[6.683853] (dwa_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_follower.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool DwaGlobalFollower::isTrajectorySafe(const std::vector<Pt>&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.684580] (dwa_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_follower.cpp:207:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbinding reference of type \xe2\x80\x98\x1b[01m\x1b[Kstd::lock_guard<std::mutex>::mutex_type&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::mutex&\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::mutex\x1b[m\x1b[K\xe2\x80\x99 discards qualifiers\n'}
+[6.684836] (dwa_follower) StderrLine: {'line': b'  207 | :lock_guard<std::mutex> lock(\x1b[01;31m\x1b[Kobstacles_mutex_\x1b[m\x1b[K);\n'}
+[6.685068] (dwa_follower) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.686234] (dwa_follower) StderrLine: {'line': b'\n'}
+[6.686427] (dwa_follower) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/mutex:43\x1b[m\x1b[K,\n'}
+[6.686609] (dwa_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[6.686761] (dwa_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[6.687003] (dwa_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.687206] (dwa_follower) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_follower.cpp:1\x1b[m\x1b[K:\n'}
+[6.687554] (dwa_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_mutex.h:228:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kstd::lock_guard<_Mutex>::lock_guard(std::lock_guard<_Mutex>::mutex_type&) [with _Mutex = std::mutex; std::lock_guard<_Mutex>::mutex_type = std::mutex]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.687750] (dwa_follower) StderrLine: {'line': b'  228 | licit lock_guard(\x1b[01;36m\x1b[Kmutex_type& __m\x1b[m\x1b[K) : _M_device(__m)\n'}
+[6.687929] (dwa_follower) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.688122] (dwa_follower) StderrLine: {'line': b'\n'}
+[6.689403] (dwa_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_follower.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<double, double> DwaGlobalFollower::getLocalGoal() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.689717] (dwa_follower) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_follower.cpp:223:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<double, double>\x1b[m\x1b[K\xe2\x80\x99 when C++17 is enabled changed to match C++14 \x1b]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_base\x07in GCC 10.1\x1b]8;;\x07\n'}
+[6.690008] (dwa_follower) StderrLine: {'line': b'  223 | waGlobalFollower::getLocalGoal() \x1b[01;36m\x1b[Kconst\x1b[m\x1b[K {\n'}
+[6.690197] (dwa_follower) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.690531] (dwa_follower) StderrLine: {'line': b'\n'}
+[6.776763] (-) TimerEvent: {}
+[6.877418] (-) TimerEvent: {}
+[6.978173] (-) TimerEvent: {}
+[7.079408] (-) TimerEvent: {}
+[7.180253] (-) TimerEvent: {}
+[7.281638] (-) TimerEvent: {}
+[7.382605] (-) TimerEvent: {}
+[7.483378] (-) TimerEvent: {}
+[7.584402] (-) TimerEvent: {}
+[7.685196] (-) TimerEvent: {}
+[7.786183] (-) TimerEvent: {}
+[7.886971] (-) TimerEvent: {}
+[7.987873] (-) TimerEvent: {}
+[8.088507] (-) TimerEvent: {}
+[8.189491] (-) TimerEvent: {}
+[8.290066] (-) TimerEvent: {}
+[8.390622] (-) TimerEvent: {}
+[8.491388] (-) TimerEvent: {}
+[8.592027] (-) TimerEvent: {}
+[8.692761] (-) TimerEvent: {}
+[8.793434] (-) TimerEvent: {}
+[8.894082] (-) TimerEvent: {}
+[8.994692] (-) TimerEvent: {}
+[9.095354] (-) TimerEvent: {}
+[9.196006] (-) TimerEvent: {}
+[9.297092] (-) TimerEvent: {}
+[9.397848] (-) TimerEvent: {}
+[9.499081] (-) TimerEvent: {}
+[9.600005] (-) TimerEvent: {}
+[9.700618] (-) TimerEvent: {}
+[9.801261] (-) TimerEvent: {}
+[9.901902] (-) TimerEvent: {}
+[10.002509] (-) TimerEvent: {}
+[10.103118] (-) TimerEvent: {}
+[10.203718] (-) TimerEvent: {}
+[10.304320] (-) TimerEvent: {}
+[10.405035] (-) TimerEvent: {}
+[10.505841] (-) TimerEvent: {}
+[10.606481] (-) TimerEvent: {}
+[10.707060] (-) TimerEvent: {}
+[10.807694] (-) TimerEvent: {}
+[10.908269] (-) TimerEvent: {}
+[11.008859] (-) TimerEvent: {}
+[11.109808] (-) TimerEvent: {}
+[11.210455] (-) TimerEvent: {}
+[11.311069] (-) TimerEvent: {}
+[11.411670] (-) TimerEvent: {}
+[11.512289] (-) TimerEvent: {}
+[11.613189] (-) TimerEvent: {}
+[11.715554] (-) TimerEvent: {}
+[11.816594] (-) TimerEvent: {}
+[11.917429] (-) TimerEvent: {}
+[12.018113] (-) TimerEvent: {}
+[12.119214] (-) TimerEvent: {}
+[12.220483] (-) TimerEvent: {}
+[12.321301] (-) TimerEvent: {}
+[12.422086] (-) TimerEvent: {}
+[12.522727] (-) TimerEvent: {}
+[12.623341] (-) TimerEvent: {}
+[12.723968] (-) TimerEvent: {}
+[12.824676] (-) TimerEvent: {}
+[12.925752] (-) TimerEvent: {}
+[13.026880] (-) TimerEvent: {}
+[13.127782] (-) TimerEvent: {}
+[13.228356] (-) TimerEvent: {}
+[13.328973] (-) TimerEvent: {}
+[13.429568] (-) TimerEvent: {}
+[13.530243] (-) TimerEvent: {}
+[13.631231] (-) TimerEvent: {}
+[13.731932] (-) TimerEvent: {}
+[13.832613] (-) TimerEvent: {}
+[13.933277] (-) TimerEvent: {}
+[14.034134] (-) TimerEvent: {}
+[14.134771] (-) TimerEvent: {}
+[14.235369] (-) TimerEvent: {}
+[14.335994] (-) TimerEvent: {}
+[14.436630] (-) TimerEvent: {}
+[14.537257] (-) TimerEvent: {}
+[14.639292] (-) TimerEvent: {}
+[14.742387] (-) TimerEvent: {}
+[14.844000] (-) TimerEvent: {}
+[14.945406] (-) TimerEvent: {}
+[15.046992] (-) TimerEvent: {}
+[15.147723] (-) TimerEvent: {}
+[15.249067] (-) TimerEvent: {}
+[15.350491] (-) TimerEvent: {}
+[15.453110] (-) TimerEvent: {}
+[15.553802] (-) TimerEvent: {}
+[15.654495] (-) TimerEvent: {}
+[15.756192] (-) TimerEvent: {}
+[15.856803] (-) TimerEvent: {}
+[15.957441] (-) TimerEvent: {}
+[16.058175] (-) TimerEvent: {}
+[16.159683] (-) TimerEvent: {}
+[16.260672] (-) TimerEvent: {}
+[16.361816] (-) TimerEvent: {}
+[16.462471] (-) TimerEvent: {}
+[16.563097] (-) TimerEvent: {}
+[16.663819] (-) TimerEvent: {}
+[16.764501] (-) TimerEvent: {}
+[16.867656] (-) TimerEvent: {}
+[16.968288] (-) TimerEvent: {}
+[17.068989] (-) TimerEvent: {}
+[17.170065] (-) TimerEvent: {}
+[17.270685] (-) TimerEvent: {}
+[17.371290] (-) TimerEvent: {}
+[17.471983] (-) TimerEvent: {}
+[17.572681] (-) TimerEvent: {}
+[17.673844] (-) TimerEvent: {}
+[17.774577] (-) TimerEvent: {}
+[17.876169] (-) TimerEvent: {}
+[17.976877] (-) TimerEvent: {}
+[18.077524] (-) TimerEvent: {}
+[18.178485] (-) TimerEvent: {}
+[18.279273] (-) TimerEvent: {}
+[18.380032] (-) TimerEvent: {}
+[18.480840] (-) TimerEvent: {}
+[18.582001] (-) TimerEvent: {}
+[18.682856] (-) TimerEvent: {}
+[18.783615] (-) TimerEvent: {}
+[18.884256] (-) TimerEvent: {}
+[18.984879] (-) TimerEvent: {}
+[19.085479] (-) TimerEvent: {}
+[19.186072] (-) TimerEvent: {}
+[19.286715] (-) TimerEvent: {}
+[19.387346] (-) TimerEvent: {}
+[19.488037] (-) TimerEvent: {}
+[19.588694] (-) TimerEvent: {}
+[19.689284] (-) TimerEvent: {}
+[19.789879] (-) TimerEvent: {}
+[19.890483] (-) TimerEvent: {}
+[19.991062] (-) TimerEvent: {}
+[20.091913] (-) TimerEvent: {}
+[20.192786] (-) TimerEvent: {}
+[20.293439] (-) TimerEvent: {}
+[20.394788] (-) TimerEvent: {}
+[20.495407] (-) TimerEvent: {}
+[20.596035] (-) TimerEvent: {}
+[20.696628] (-) TimerEvent: {}
+[20.797185] (-) TimerEvent: {}
+[20.898046] (-) TimerEvent: {}
+[20.998936] (-) TimerEvent: {}
+[21.099628] (-) TimerEvent: {}
+[21.200562] (-) TimerEvent: {}
+[21.301750] (-) TimerEvent: {}
+[21.402521] (-) TimerEvent: {}
+[21.503279] (-) TimerEvent: {}
+[21.506229] (dwa_follower) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dwa_follower_node.dir/build.make:76: CMakeFiles/dwa_follower_node.dir/src/dwa_follower.cpp.o] Error 1\n'}
+[21.507211] (dwa_follower) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/dwa_follower_node.dir/all] Error 2\n'}
+[21.507738] (dwa_follower) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[21.512849] (dwa_follower) CommandEnded: {'returncode': 2}
+[21.562172] (dwa_follower) JobEnded: {'identifier': 'dwa_follower', 'rc': 2}
+[21.573834] (-) EventReactorShutdown: {}

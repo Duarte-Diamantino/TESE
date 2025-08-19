@@ -1,0 +1,6 @@
+Invoking command in '/home/jetson/f1tenth/build/lbfgspp': /usr/bin/cmake /home/jetson/f1tenth/src/LBFGSpp -DCMAKE_INSTALL_PREFIX=/home/jetson/f1tenth/install/lbfgspp
+Invoked command in '/home/jetson/f1tenth/build/lbfgspp' returned '0': /usr/bin/cmake /home/jetson/f1tenth/src/LBFGSpp -DCMAKE_INSTALL_PREFIX=/home/jetson/f1tenth/install/lbfgspp
+Invoking command in '/home/jetson/f1tenth/build/lbfgspp': /usr/bin/cmake --build /home/jetson/f1tenth/build/lbfgspp -- -j6 -l6
+Invoked command in '/home/jetson/f1tenth/build/lbfgspp' returned '0': /usr/bin/cmake --build /home/jetson/f1tenth/build/lbfgspp -- -j6 -l6
+Invoking command in '/home/jetson/f1tenth/build/lbfgspp': /usr/bin/cmake --install /home/jetson/f1tenth/build/lbfgspp
+Invoked command in '/home/jetson/f1tenth/build/lbfgspp' returned '0': /usr/bin/cmake --install /home/jetson/f1tenth/build/lbfgspp

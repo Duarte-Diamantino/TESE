@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing pickup_description.egg-info/PKG-INFO
+writing dependency_links to pickup_description.egg-info/dependency_links.txt
+writing entry points to pickup_description.egg-info/entry_points.txt
+writing requirements to pickup_description.egg-info/requires.txt
+writing top-level names to pickup_description.egg-info/top_level.txt
+reading manifest file 'pickup_description.egg-info/SOURCES.txt'
+writing manifest file 'pickup_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/python3.10/site-packages/pickup-description.egg-link (link to .)
+Installing marker_publisher script to /home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/pickup_description
+Installing mov_robot_model script to /home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/pickup_description
+Installing q_path_publisher script to /home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/pickup_description
+Installing rounded_rectangle_marker_publisher script to /home/jetson/f1tenth/src/pickup_description/install/pickup_description/lib/pickup_description
+
+Installed /home/jetson/f1tenth/src/pickup_description/build/pickup_description
+running symlink_data
+symbolically linking /home/jetson/f1tenth/src/pickup_description/build/pickup_description/resource/pickup_description -> /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/ament_index/resource_index/packages
+symbolically linking /home/jetson/f1tenth/src/pickup_description/build/pickup_description/package.xml -> /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/pickup_description
+symbolically linking /home/jetson/f1tenth/src/pickup_description/build/pickup_description/launch/map_only.launch.py -> /home/jetson/f1tenth/src/pickup_description/install/pickup_description/share/pickup_description/launch

@@ -1,0 +1,46 @@
+[3.247s] Invoking command in '/home/jetson/f1tenth/build/pickup_description': PYTHONPATH=/home/jetson/f1tenth/build/pickup_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/f1tenth/install/pickup_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/f1tenth/build/pickup_description/build --no-deps symlink_data
+[6.517s] running develop
+[6.518s] running egg_info
+[6.518s] creating pickup_description.egg-info
+[6.518s] writing pickup_description.egg-info/PKG-INFO
+[6.518s] writing dependency_links to pickup_description.egg-info/dependency_links.txt
+[6.518s] writing entry points to pickup_description.egg-info/entry_points.txt
+[6.518s] writing requirements to pickup_description.egg-info/requires.txt
+[6.519s] writing top-level names to pickup_description.egg-info/top_level.txt
+[6.519s] writing manifest file 'pickup_description.egg-info/SOURCES.txt'
+[6.519s] reading manifest file 'pickup_description.egg-info/SOURCES.txt'
+[6.519s] writing manifest file 'pickup_description.egg-info/SOURCES.txt'
+[6.519s] running build_ext
+[6.519s] Creating /home/jetson/f1tenth/install/pickup_description/lib/python3.10/site-packages/pickup-description.egg-link (link to .)
+[6.519s] Installing marker_publisher script to /home/jetson/f1tenth/install/pickup_description/lib/pickup_description
+[6.519s] Installing mov_robot_model script to /home/jetson/f1tenth/install/pickup_description/lib/pickup_description
+[6.520s] Installing q_path_publisher script to /home/jetson/f1tenth/install/pickup_description/lib/pickup_description
+[6.520s] Installing rounded_rectangle_marker_publisher script to /home/jetson/f1tenth/install/pickup_description/lib/pickup_description
+[6.520s] 
+[6.520s] Installed /home/jetson/f1tenth/build/pickup_description
+[6.520s] running symlink_data
+[6.520s] creating /home/jetson/f1tenth/install/pickup_description/share/ament_index
+[6.520s] creating /home/jetson/f1tenth/install/pickup_description/share/ament_index/resource_index
+[6.521s] creating /home/jetson/f1tenth/install/pickup_description/share/ament_index/resource_index/packages
+[6.521s] symbolically linking /home/jetson/f1tenth/build/pickup_description/resource/pickup_description -> /home/jetson/f1tenth/install/pickup_description/share/ament_index/resource_index/packages
+[6.521s] symbolically linking /home/jetson/f1tenth/build/pickup_description/package.xml -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description
+[6.521s] creating /home/jetson/f1tenth/install/pickup_description/share/pickup_description/launch
+[6.521s] symbolically linking /home/jetson/f1tenth/build/pickup_description/launch/map_only.launch.py -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/launch
+[6.521s] symbolically linking /home/jetson/f1tenth/build/pickup_description/launch/q_path.launch.py -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/launch
+[6.521s] symbolically linking /home/jetson/f1tenth/build/pickup_description/launch/all.launch.py -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/launch
+[6.521s] symbolically linking /home/jetson/f1tenth/build/pickup_description/launch/spline.launch.py -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/launch
+[6.522s] symbolically linking /home/jetson/f1tenth/build/pickup_description/launch/set_pose.launch.py -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/launch
+[6.522s] symbolically linking /home/jetson/f1tenth/build/pickup_description/launch/launch_rounded_rectangle.launch.py -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/launch
+[6.522s] symbolically linking /home/jetson/f1tenth/build/pickup_description/launch/robot.launch.py -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/launch
+[6.522s] symbolically linking /home/jetson/f1tenth/build/pickup_description/launch/display.launch.py -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/launch
+[6.522s] creating /home/jetson/f1tenth/install/pickup_description/share/pickup_description/urdf
+[6.522s] symbolically linking /home/jetson/f1tenth/build/pickup_description/urdf/pickup.urdf -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/urdf
+[6.522s] creating /home/jetson/f1tenth/install/pickup_description/share/pickup_description/maps
+[6.522s] symbolically linking /home/jetson/f1tenth/build/pickup_description/maps/map.yaml -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/maps
+[6.523s] symbolically linking /home/jetson/f1tenth/build/pickup_description/maps/map_scaled.pgm -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/maps
+[6.523s] symbolically linking /home/jetson/f1tenth/build/pickup_description/maps/map_200.pgm -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/maps
+[6.523s] symbolically linking /home/jetson/f1tenth/build/pickup_description/maps/map_half.pgm -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/maps
+[6.523s] symbolically linking /home/jetson/f1tenth/build/pickup_description/maps/map.pgm -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/maps
+[6.523s] creating /home/jetson/f1tenth/install/pickup_description/share/pickup_description/config
+[6.523s] symbolically linking /home/jetson/f1tenth/build/pickup_description/config/splines.yaml -> /home/jetson/f1tenth/install/pickup_description/share/pickup_description/config
+[6.535s] Invoked command in '/home/jetson/f1tenth/build/pickup_description' returned '0': PYTHONPATH=/home/jetson/f1tenth/build/pickup_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/f1tenth/install/pickup_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/f1tenth/build/pickup_description/build --no-deps symlink_data

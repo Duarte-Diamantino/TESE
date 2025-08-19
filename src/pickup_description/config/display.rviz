@@ -1,0 +1,77 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/Views
+    Name: Views
+
+Visualization Manager:
+  Fixed Frame: map
+  Displays:
+    - Alpha: 1
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: {r: 160, g: 160, b: 160}
+      Enabled: true
+      Name: Grid
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: map
+      Value: true
+
+    - Class: rviz_default_plugins/Map
+      Enabled: true
+      Name: Map
+      Topic: /map
+      Alpha: 1
+      Color Scheme: map
+      Draw Behind: false
+      Filter Bandwidth: 0
+      Offset: {x: 0, y: 0, z: 0}
+      Pose: {position: {x: 0, y: 0, z: 0}, orientation: {x: 0, y: 0, z: 0, w: 1}}
+      Reference Frame: map
+      Use Reliable Topic: false
+      Value: true
+
+    - Class: rviz_default_plugins/RobotModel
+      Enabled: true
+      Name: RobotModel
+      Robot Description: robot_description
+      TF Frame: base_link
+      Update Interval: 0.0
+      Visual Enabled: true
+      Collision Enabled: false
+      Alpha: 1
+      Description Source: File
+      Description File: /home/duarte_diamantino/f1tenth/src/pickup_description/urdf/pickup.urdf
+
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Name: TF
+      Show Axes: true
+      Show Names: true
+      Update Interval: 0.0
+      Marker Scale: 1.0
+      Frame Timeout: 15.0
+      Frames: {}
+
+  Enabled: true
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+    - Class: rviz_default_plugins/SetInitialPose
+    - Class: rviz_default_plugins/SetGoal
+    - Class: rviz_default_plugins/PublishPoint
+
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Focal Point: {x: 0, y: 0, z: 0}
+      Distance: 3
+      Pitch: 0.785398
+      Yaw: 0.785398

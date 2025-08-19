@@ -1,0 +1,24 @@
+[0.027s] Invoking command in '/home/jetson/f1tenth/build/dwa_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python:/home/jetson/install/pickup_description:/home/jetson/install/mpc_python:/opt/ros/humble /usr/bin/cmake --build /home/jetson/f1tenth/build/dwa_follower -- -j6 -l6
+[0.149s] [35m[1mConsolidate compiler generated dependencies of target dwa_follower_node[0m
+[0.160s] [35m[1mConsolidate compiler generated dependencies of target dwa_global_follower[0m
+[0.194s] [ 33%] Built target dwa_spline_follower
+[0.213s] [ 50%] [32mBuilding CXX object CMakeFiles/dwa_follower_node.dir/src/dwa_follower.cpp.o[0m
+[0.221s] [ 66%] [32mBuilding CXX object CMakeFiles/dwa_global_follower.dir/src/dwa_global_follower.cpp.o[0m
+[7.530s] [01m[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_global_follower.cpp:[m[K In member function ‘[01m[Kvoid DwaGlobalFollower::pathCb(nav_msgs::msg::Path_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.530s] [01m[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_global_follower.cpp:180:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _header_type[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::Header_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kseq[m[K’
+[7.530s]   180 |     if (ps.header.[01;31m[Kseq[m[K != 0) {
+[7.530s]       |                   [01;31m[K^~~[m[K
+[7.531s] [01m[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_global_follower.cpp:181:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _header_type[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::Header_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kseq[m[K’
+[7.531s]   181 |       ordem = static_cast<long long>(ps.header.[01;31m[Kseq[m[K);
+[7.531s]       |                                                [01;31m[K^~~[m[K
+[7.552s] [01m[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_global_follower.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> DwaGlobalFollower::getLocalGoal() const[m[K’:
+[7.553s] [01m[K/home/jetson/f1tenth/src/dwa_follower/src/dwa_global_follower.cpp:276:61:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[7.553s]   276 | std::pair<double, double> DwaGlobalFollower::getLocalGoal() [01;36m[Kconst[m[K {
+[7.553s]       |                                                             [01;36m[K^~~~~[m[K
+[23.811s] gmake[2]: *** [CMakeFiles/dwa_global_follower.dir/build.make:76: CMakeFiles/dwa_global_follower.dir/src/dwa_global_follower.cpp.o] Error 1
+[23.813s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/dwa_global_follower.dir/all] Error 2
+[23.813s] gmake[1]: *** Waiting for unfinished jobs....
+[39.300s] [ 83%] [32m[1mLinking CXX executable dwa_follower_node[0m
+[41.232s] [ 83%] Built target dwa_follower_node
+[41.237s] gmake: *** [Makefile:146: all] Error 2
+[41.247s] Invoked command in '/home/jetson/f1tenth/build/dwa_follower' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/f1tenth/install/f1tenth_stack:/home/jetson/f1tenth/install/pickup_description:/home/jetson/f1tenth/install/mpc_python:/home/jetson/install/pickup_description:/home/jetson/install/mpc_python:/opt/ros/humble /usr/bin/cmake --build /home/jetson/f1tenth/build/dwa_follower -- -j6 -l6

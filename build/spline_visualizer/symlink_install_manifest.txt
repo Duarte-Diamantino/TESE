@@ -1,0 +1,16 @@
+/home/jetson/f1tenth/install/spline_visualizer/lib/spline_visualizer/spline_visualizer
+/home/jetson/f1tenth/install/spline_visualizer/share/ament_index/resource_index/package_run_dependencies/spline_visualizer
+/home/jetson/f1tenth/install/spline_visualizer/share/ament_index/resource_index/parent_prefix_path/spline_visualizer
+/home/jetson/f1tenth/install/spline_visualizer/share/spline_visualizer/environment/ament_prefix_path.sh
+/home/jetson/f1tenth/install/spline_visualizer/share/spline_visualizer/environment/ament_prefix_path.dsv
+/home/jetson/f1tenth/install/spline_visualizer/share/spline_visualizer/environment/path.sh
+/home/jetson/f1tenth/install/spline_visualizer/share/spline_visualizer/environment/path.dsv
+/home/jetson/f1tenth/install/spline_visualizer/share/spline_visualizer/local_setup.bash
+/home/jetson/f1tenth/install/spline_visualizer/share/spline_visualizer/local_setup.sh
+/home/jetson/f1tenth/install/spline_visualizer/share/spline_visualizer/local_setup.zsh
+/home/jetson/f1tenth/install/spline_visualizer/share/spline_visualizer/local_setup.dsv
+/home/jetson/f1tenth/install/spline_visualizer/share/spline_visualizer/package.dsv
+/home/jetson/f1tenth/install/spline_visualizer/share/ament_index/resource_index/packages/spline_visualizer
+/home/jetson/f1tenth/install/spline_visualizer/share/spline_visualizer/cmake/spline_visualizerConfig.cmake
+/home/jetson/f1tenth/install/spline_visualizer/share/spline_visualizer/cmake/spline_visualizerConfig-version.cmake
+/home/jetson/f1tenth/install/spline_visualizer/share/spline_visualizer/package.xml

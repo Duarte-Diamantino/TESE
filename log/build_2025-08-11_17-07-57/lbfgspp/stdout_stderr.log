@@ -1,0 +1,48 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test WALL_SUPPORTED
+-- Performing Test WALL_SUPPORTED - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetson/f1tenth/build/lbfgspp
+[0m-- Eigen3 version: 3.4.0[0m
+[ 10%] [32mBuilding CXX object examples/CMakeFiles/example-rosenbrock-bracketing.dir/example-rosenbrock-bracketing.cpp.o[0m
+[ 20%] [32mBuilding CXX object examples/CMakeFiles/example-quadratic.dir/example-quadratic.cpp.o[0m
+[ 30%] [32mBuilding CXX object examples/CMakeFiles/example-rosenbrock-box.dir/example-rosenbrock-box.cpp.o[0m
+[ 40%] [32mBuilding CXX object examples/CMakeFiles/example-rosenbrock-comparison.dir/example-rosenbrock-comparison.cpp.o[0m
+[ 50%] [32mBuilding CXX object examples/CMakeFiles/example-rosenbrock.dir/example-rosenbrock.cpp.o[0m
+[01m[K/home/jetson/f1tenth/src/LBFGSpp/examples/example-rosenbrock-bracketing.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/jetson/f1tenth/src/LBFGSpp/examples/example-rosenbrock-bracketing.cpp:44:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kniter[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |             int [01;35m[Kniter[m[K = solver.minimize(fun, x, fx);
+      |                 [01;35m[K^~~~~[m[K
+[ 60%] [32m[1mLinking CXX executable example-quadratic[0m
+[ 70%] [32m[1mLinking CXX executable example-rosenbrock-bracketing[0m
+[ 70%] Built target example-quadratic
+[ 70%] Built target example-rosenbrock-bracketing
+[ 80%] [32m[1mLinking CXX executable example-rosenbrock-comparison[0m
+[ 80%] Built target example-rosenbrock-comparison
+[ 90%] [32m[1mLinking CXX executable example-rosenbrock-box[0m
+[ 90%] Built target example-rosenbrock-box
+[100%] [32m[1mLinking CXX executable example-rosenbrock[0m
+[100%] Built target example-rosenbrock
+-- Install configuration: "Release"
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/include
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/include/LBFGS.h
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/include/LBFGSB.h
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/include/LBFGSpp
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/include/LBFGSpp/LineSearchBracketing.h
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/include/LBFGSpp/LineSearchMoreThuente.h
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/include/LBFGSpp/BFGSMat.h
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/include/LBFGSpp/BKLDLT.h
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/include/LBFGSpp/LineSearchBacktracking.h
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/include/LBFGSpp/Cauchy.h
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/include/LBFGSpp/LineSearchNocedalWright.h
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/include/LBFGSpp/Param.h
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/include/LBFGSpp/SubspaceMin.h
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/lib/cmake/lbfgspp/lbfgspp-targets.cmake
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/lib/cmake/lbfgspp/lbfgspp-config.cmake
+-- Installing: /home/jetson/f1tenth/install/lbfgspp/lib/cmake/lbfgspp/lbfgspp-config-version.cmake

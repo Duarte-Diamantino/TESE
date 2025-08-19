@@ -1,0 +1,1 @@
+/usr/bin/cc  -O3 CMakeFiles/osqp_codegen_demo.dir/examples/osqp_codegen_demo.c.o -o out/osqp_codegen_demo  out/libosqpstatic.a  -lm -lrt -ldl 

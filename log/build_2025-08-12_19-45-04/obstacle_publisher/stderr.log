@@ -1,0 +1,11 @@
+[01m[K/home/jetson/f1tenth/src/obstacle_publisher/src/obstacle_publisher.cpp:[m[K In constructor ‘[01m[KObstaclePublisher::ObstaclePublisher()[m[K’:
+[01m[K/home/jetson/f1tenth/src/obstacle_publisher/src/obstacle_publisher.cpp:18:49:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kconst ParameterDescriptor[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Krcl_interfaces::msg::ParameterDescriptor_<ContainerAllocator>::ParameterDescriptor_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   18 | [01;35m[K_parameter<std::vector<double>>("positions", {})[m[K;
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/jetson/f1tenth/src/obstacle_publisher/src/obstacle_publisher.cpp:18:49:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[01m[K/home/jetson/f1tenth/src/obstacle_publisher/src/obstacle_publisher.cpp:19:49:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kconst ParameterDescriptor[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Krcl_interfaces::msg::ParameterDescriptor_<ContainerAllocator>::ParameterDescriptor_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   19 | [01;35m[K_parameter<std::vector<double>>("goal", {})[m[K;
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+
+[01m[K/home/jetson/f1tenth/src/obstacle_publisher/src/obstacle_publisher.cpp:19:49:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit

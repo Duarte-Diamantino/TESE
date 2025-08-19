@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "functional": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "algorithm": "cpp",
+        "numbers": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/jetson/f1tenth/osqp/algebra/mkl"
+}

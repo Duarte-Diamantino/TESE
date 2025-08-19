@@ -1,0 +1,6 @@
+Invoking command in '/home/jetson/f1tenth/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jetson/f1tenth/src/f1tenth_system/vesc/vesc/vesc_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/f1tenth/install/vesc_msgs
+Invoked command in '/home/jetson/f1tenth/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jetson/f1tenth/src/f1tenth_system/vesc/vesc/vesc_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/f1tenth/install/vesc_msgs
+Invoking command in '/home/jetson/f1tenth/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/f1tenth/build/vesc_msgs -- -j6 -l6
+Invoked command in '/home/jetson/f1tenth/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/f1tenth/build/vesc_msgs -- -j6 -l6
+Invoking command in '/home/jetson/f1tenth/build/vesc_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/f1tenth/build/vesc_msgs
+Invoked command in '/home/jetson/f1tenth/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/f1tenth/build/vesc_msgs
